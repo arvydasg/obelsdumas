@@ -1,0 +1,3327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2021-08-31 An 15:21 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Obelsdumas Statistika</title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="Arvydas" />
+<meta name="description" content="Obelsdumo informacija"
+ />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<link rel="stylesheet" type="text/css" href="https://fniessen.github.io/org-html-themes/src/readtheorg_theme/css/htmlize.css"/>
+<link rel="stylesheet" type="text/css" href="https://fniessen.github.io/org-html-themes/src/readtheorg_theme/css/readtheorg.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://fniessen.github.io/org-html-themes/src/lib/js/jquery.stickytableheaders.min.js"></script>
+<script type="text/javascript" src="https://fniessen.github.io/org-html-themes/src/readtheorg_theme/js/readtheorg.js"></script>
+<style> #content{max-width:1800px;}</style>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2019 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">Obelsdumas Statistika</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#orgb833fa9">2021-07</a>
+<ul>
+<li><a href="#org71540b4">Sales</a>
+<ul>
+<li><a href="#org36da1dd">Categories</a></li>
+<li><a href="#org24d5f52">Products</a></li>
+<li><a href="#org0d0dcad">Variations</a></li>
+<li><a href="#org33ae0e1">Orders</a></li>
+<li><a href="#org9368ac3">Revenue</a></li>
+</ul>
+</li>
+<li><a href="#orga28d893">Web analytics</a>
+<ul>
+<li><a href="#org4c69104">By Country</a></li>
+<li><a href="#orgc3534d6">By City</a></li>
+<li><a href="#org860fcbe">Devices</a></li>
+<li><a href="#org39808b3">Browser</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orgae150f8">2021-08</a>
+<ul>
+<li><a href="#org10fb4ec">Sales</a>
+<ul>
+<li><a href="#orga37fb85">Categories</a></li>
+<li><a href="#org3c87325">Orders</a></li>
+<li><a href="#org5b14152">Products</a></li>
+<li><a href="#orgdc57487">Variations</a></li>
+<li><a href="#orgccb7bc4">Revenue</a></li>
+</ul>
+</li>
+<li><a href="#org91bd5f7">Web analytics</a>
+<ul>
+<li><a href="#orgba11d46">By Country</a></li>
+<li><a href="#orgde9a57c">By City</a></li>
+<li><a href="#orgc27bd1a">Devices</a></li>
+<li><a href="#org4acaa64">Browser</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgb833fa9" class="outline-2">
+<h2 id="orgb833fa9">2021-07</h2>
+<div class="outline-text-2" id="text-orgb833fa9">
+</div>
+<div id="outline-container-org71540b4" class="outline-3">
+<h3 id="org71540b4">Sales</h3>
+<div class="outline-text-3" id="text-org71540b4">
+</div>
+<div id="outline-container-org36da1dd" class="outline-4">
+<h4 id="org36da1dd">Categories</h4>
+<div class="outline-text-4" id="text-org36da1dd">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Category</th>
+<th scope="col" class="org-right">Items Sold</th>
+<th scope="col" class="org-right">Net Sales</th>
+<th scope="col" class="org-right">Products</th>
+<th scope="col" class="org-right">Orders</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Dešros ir dešrelės</td>
+<td class="org-right">17</td>
+<td class="org-right">99.56</td>
+<td class="org-right">4</td>
+<td class="org-right">10</td>
+</tr>
+
+<tr>
+<td class="org-left">Lašiniai</td>
+<td class="org-right">10</td>
+<td class="org-right">66.71</td>
+<td class="org-right">2</td>
+<td class="org-right">6</td>
+</tr>
+
+<tr>
+<td class="org-left">Rūkyti mėsos gaminiai</td>
+<td class="org-right">6</td>
+<td class="org-right">42.94</td>
+<td class="org-right">4</td>
+<td class="org-right">2</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">33</td>
+<td class="org-right">209.21 eur</td>
+<td class="org-right">10</td>
+<td class="org-right">18</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<div id="outline-container-org24d5f52" class="outline-4">
+<h4 id="org24d5f52">Products</h4>
+<div class="outline-text-4" id="text-org24d5f52">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-left" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Product Title</th>
+<th scope="col" class="org-right">Items Sold</th>
+<th scope="col" class="org-right">Net Sales</th>
+<th scope="col" class="org-right">Orders</th>
+<th scope="col" class="org-left">Category</th>
+<th scope="col" class="org-right">Variations</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Šaltai rūkyti lašiniai</td>
+<td class="org-right">8</td>
+<td class="org-right">52.73</td>
+<td class="org-right">5</td>
+<td class="org-left">Lašiniai</td>
+<td class="org-right">2</td>
+</tr>
+
+<tr>
+<td class="org-left">Mažai parūkytos dešrelės</td>
+<td class="org-right">7</td>
+<td class="org-right">29.15</td>
+<td class="org-right">7</td>
+<td class="org-left">Dešros ir dešrelės</td>
+<td class="org-right">2</td>
+</tr>
+
+<tr>
+<td class="org-left">Aukštaitiška dešra</td>
+<td class="org-right">7</td>
+<td class="org-right">50.44</td>
+<td class="org-right">6</td>
+<td class="org-left">Dešros ir dešrelės</td>
+<td class="org-right">2</td>
+</tr>
+
+<tr>
+<td class="org-left">Karštai rūkyta dešra</td>
+<td class="org-right">2</td>
+<td class="org-right">12.98</td>
+<td class="org-right">2</td>
+<td class="org-left">Dešros ir dešrelės, Rūkyti mėsos gaminiai</td>
+<td class="org-right">2</td>
+</tr>
+
+<tr>
+<td class="org-left">Karštai rūkyta šoninė</td>
+<td class="org-right">2</td>
+<td class="org-right">13.98</td>
+<td class="org-right">2</td>
+<td class="org-left">Lašiniai, Rūkyti mėsos gaminiai</td>
+<td class="org-right">2</td>
+</tr>
+
+<tr>
+<td class="org-left">Karštai rūkytas kumpis</td>
+<td class="org-right">1</td>
+<td class="org-right">8.99</td>
+<td class="org-right">1</td>
+<td class="org-left">Rūkyti mėsos gaminiai</td>
+<td class="org-right">2</td>
+</tr>
+
+<tr>
+<td class="org-left">Vytintos dešrelės</td>
+<td class="org-right">1</td>
+<td class="org-right">6.99</td>
+<td class="org-right">1</td>
+<td class="org-left">Dešros ir dešrelės, Rūkyti mėsos gaminiai</td>
+<td class="org-right">2</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">28</td>
+<td class="org-right">175.26 eur</td>
+<td class="org-right">24</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<div id="outline-container-org0d0dcad" class="outline-4">
+<h4 id="org0d0dcad">Variations</h4>
+<div class="outline-text-4" id="text-org0d0dcad">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-left" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Product / Variation Title</th>
+<th scope="col" class="org-right">Items Sold</th>
+<th scope="col" class="org-right">Net Sales</th>
+<th scope="col" class="org-right">Orders</th>
+<th scope="col" class="org-left">Status</th>
+<th scope="col" class="org-right">Stock</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Šaltai rūkyti lašiniai 1kg</td>
+<td class="org-right">6</td>
+<td class="org-right">47.94</td>
+<td class="org-right">3</td>
+<td class="org-left">In stock</td>
+<td class="org-right">5</td>
+</tr>
+
+<tr>
+<td class="org-left">Aukštaitiška dešra 1kg</td>
+<td class="org-right">5</td>
+<td class="org-right">44.95</td>
+<td class="org-right">4</td>
+<td class="org-left">In stock</td>
+<td class="org-right">4</td>
+</tr>
+
+<tr>
+<td class="org-left">Aukštaitiška dešra 500g</td>
+<td class="org-right">2</td>
+<td class="org-right">5.49</td>
+<td class="org-right">2</td>
+<td class="org-left">In stock</td>
+<td class="org-right">4</td>
+</tr>
+
+<tr>
+<td class="org-left">Mažai parūkytos dešrelės 450g</td>
+<td class="org-right">2</td>
+<td class="org-right">7.98</td>
+<td class="org-right">2</td>
+<td class="org-left">In stock</td>
+<td class="org-right">5</td>
+</tr>
+
+<tr>
+<td class="org-left">Karštai rūkytas kumpis 1kg</td>
+<td class="org-right">1</td>
+<td class="org-right">8.99</td>
+<td class="org-right">1</td>
+<td class="org-left">In stock</td>
+<td class="org-right">5</td>
+</tr>
+
+<tr>
+<td class="org-left">Vytintos dešrelės 500g</td>
+<td class="org-right">1</td>
+<td class="org-right">6.99</td>
+<td class="org-right">1</td>
+<td class="org-left">In stock</td>
+<td class="org-right">5</td>
+</tr>
+
+<tr>
+<td class="org-left">Mažai parūkytos dešrelės</td>
+<td class="org-right">1</td>
+<td class="org-right">0.4</td>
+<td class="org-right">1</td>
+<td class="org-left">In stock</td>
+<td class="org-right">5</td>
+</tr>
+
+<tr>
+<td class="org-left">Šaltai rūkyti lašiniai 500g</td>
+<td class="org-right">1</td>
+<td class="org-right">3.99</td>
+<td class="org-right">1</td>
+<td class="org-left">In stock</td>
+<td class="org-right">5</td>
+</tr>
+
+<tr>
+<td class="org-left">Karštai rūkyta šoninė 1kg</td>
+<td class="org-right">1</td>
+<td class="org-right">8.99</td>
+<td class="org-right">1</td>
+<td class="org-left">In stock</td>
+<td class="org-right">5</td>
+</tr>
+
+<tr>
+<td class="org-left">Karštai rūkyta dešra 1kg</td>
+<td class="org-right">1</td>
+<td class="org-right">8.49</td>
+<td class="org-right">1</td>
+<td class="org-left">In stock</td>
+<td class="org-right">5</td>
+</tr>
+
+<tr>
+<td class="org-left">Mažai parūkytos dešrelės 900g</td>
+<td class="org-right">1</td>
+<td class="org-right">7.99</td>
+<td class="org-right">1</td>
+<td class="org-left">In stock</td>
+<td class="org-right">5</td>
+</tr>
+
+<tr>
+<td class="org-left">Karštai rūkyta šoninė 500g</td>
+<td class="org-right">1</td>
+<td class="org-right">4.99</td>
+<td class="org-right">1</td>
+<td class="org-left">In stock</td>
+<td class="org-right">5</td>
+</tr>
+
+<tr>
+<td class="org-left">Karštai rūkyta dešra 500g</td>
+<td class="org-right">1</td>
+<td class="org-right">4.49</td>
+<td class="org-right">1</td>
+<td class="org-left">In stock</td>
+<td class="org-right">5</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">24</td>
+<td class="org-right">161.68 eur</td>
+<td class="org-right">20</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<div id="outline-container-org33ae0e1" class="outline-4">
+<h4 id="org33ae0e1">Orders</h4>
+<div class="outline-text-4" id="text-org33ae0e1">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-left" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Date</th>
+<th scope="col" class="org-right">Order #</th>
+<th scope="col" class="org-left">Status</th>
+<th scope="col" class="org-left">Customer</th>
+<th scope="col" class="org-left">Customer Type</th>
+<th scope="col" class="org-left">Product(s)</th>
+<th scope="col" class="org-right">Items Sold</th>
+<th scope="col" class="org-left">Coupon(s)</th>
+<th scope="col" class="org-right">Net Sales</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">2021-07-28 13:01:57</td>
+<td class="org-right">7193</td>
+<td class="org-left">completed</td>
+<td class="org-left">Arvydas Gaspa</td>
+<td class="org-left">new</td>
+<td class="org-left">1× Aukštaitiška dešra 500g</td>
+<td class="org-right">1</td>
+<td class="org-left">testukas</td>
+<td class="org-right">0.5</td>
+</tr>
+
+<tr>
+<td class="org-left">2021-07-27 06:21:34</td>
+<td class="org-right">7191</td>
+<td class="org-left">completed</td>
+<td class="org-left">Eugenijus Kambaras</td>
+<td class="org-left">new</td>
+<td class="org-left">4× Šaltai rūkyti lašiniai 1kg, 2× Aukštaitiška dešra 1kg</td>
+<td class="org-right">6</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">49.94</td>
+</tr>
+
+<tr>
+<td class="org-left">2021-07-25 13:16:54</td>
+<td class="org-right">7180</td>
+<td class="org-left">completed</td>
+<td class="org-left">SAULIUS Antulevičius</td>
+<td class="org-left">new</td>
+<td class="org-left">1× Mažai parūkytos dešrelės 450g, 1× Aukštaitiška dešra 1kg, 1× Šaltai rūkyti lašiniai 1kg</td>
+<td class="org-right">3</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">20.97</td>
+</tr>
+
+<tr>
+<td class="org-left">2021-07-24 17:25:41</td>
+<td class="org-right">7179</td>
+<td class="org-left">completed</td>
+<td class="org-left">Žaneta Burbulevičienė</td>
+<td class="org-left">new</td>
+<td class="org-left">1× Karštai rūkyta dešra 1kg, 1× Aukštaitiška dešra 1kg, 1× Mažai parūkytos dešrelės 900g, 1× Vytintos dešrelės 500g, 1× Karštai rūkytas kumpis 1kg, 1× Karštai rūkyta šoninė 1kg, 1× Šaltai rūkyti lašiniai 500g</td>
+<td class="org-right">7</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">54.43</td>
+</tr>
+
+<tr>
+<td class="org-left">2021-07-24 14:11:36</td>
+<td class="org-right">7178</td>
+<td class="org-left">completed</td>
+<td class="org-left">Simonas Stonys</td>
+<td class="org-left">new</td>
+<td class="org-left">1× Karštai rūkyta dešra 500g, 1× Karštai rūkyta šoninė 500g, 1× Mažai parūkytos dešrelės 450g, 1× Aukštaitiška dešra 500g</td>
+<td class="org-right">4</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">18.46</td>
+</tr>
+
+<tr>
+<td class="org-left">2021-07-24 13:27:10</td>
+<td class="org-right">7177</td>
+<td class="org-left">completed</td>
+<td class="org-left">Jolanta Lukšienė</td>
+<td class="org-left">new</td>
+<td class="org-left">1× Šaltai rūkyti lašiniai 1kg, 1× Aukštaitiška dešra 1kg</td>
+<td class="org-right">2</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">16.98</td>
+</tr>
+
+<tr>
+<td class="org-left">2021-07-16 14:41:19</td>
+<td class="org-right">7142</td>
+<td class="org-left">completed</td>
+<td class="org-left">Obels Dūmas</td>
+<td class="org-left">new</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">1</td>
+<td class="org-left">testukas</td>
+<td class="org-right">0.4</td>
+</tr>
+
+<tr>
+<td class="org-left">2021-07-15 10:12:07</td>
+<td class="org-right">7087</td>
+<td class="org-left">completed</td>
+<td class="org-left">Giedrė Gasparavičienė</td>
+<td class="org-left">new</td>
+<td class="org-left">1× Mažai parūkytos dešrelės</td>
+<td class="org-right">1</td>
+<td class="org-left">draugai</td>
+<td class="org-right">3.99</td>
+</tr>
+
+<tr>
+<td class="org-left">2021-07-14 11:26:09</td>
+<td class="org-right">6986</td>
+<td class="org-left">completed</td>
+<td class="org-left">Arūnė Švenčionė</td>
+<td class="org-left">new</td>
+<td class="org-left">1× Mažai parūkytos dešrelės</td>
+<td class="org-right">1</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">7.99</td>
+</tr>
+
+<tr>
+<td class="org-left">2021-07-13 16:11:52</td>
+<td class="org-right">6984</td>
+<td class="org-left">completed</td>
+<td class="org-left">Arvydas Gasparavicius</td>
+<td class="org-left">returning</td>
+<td class="org-left">1× Šaltai rūkyti lašiniai</td>
+<td class="org-right">1</td>
+<td class="org-left">testukas</td>
+<td class="org-right">0.8</td>
+</tr>
+
+<tr>
+<td class="org-left">2021-07-13 15:15:05</td>
+<td class="org-right">6983</td>
+<td class="org-left">completed</td>
+<td class="org-left">Arvydas Gasparavicius</td>
+<td class="org-left">new</td>
+<td class="org-left">1× Mažai parūkytos dešrelės</td>
+<td class="org-right">1</td>
+<td class="org-left">testukas</td>
+<td class="org-right">0.8</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">28</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">175.26 eur</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<div id="outline-container-org9368ac3" class="outline-4">
+<h4 id="org9368ac3">Revenue</h4>
+<div class="outline-text-4" id="text-org9368ac3">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-right">Date</th>
+<th scope="col" class="org-right">Orders</th>
+<th scope="col" class="org-right">Gross Sales</th>
+<th scope="col" class="org-right">Total Sales</th>
+<th scope="col" class="org-right">Returns</th>
+<th scope="col" class="org-right">Coupons</th>
+<th scope="col" class="org-right">Taxes</th>
+<th scope="col" class="org-right">Shipping</th>
+<th scope="col" class="org-right">Net Revenue</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-right">2021-07-30</td>
+<td class="org-right">0</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+</tr>
+
+<tr>
+<td class="org-right">2021-07-29</td>
+<td class="org-right">0</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+</tr>
+
+<tr>
+<td class="org-right">2021-07-28</td>
+<td class="org-right">1</td>
+<td class="org-right">4.99</td>
+<td class="org-right">0.60</td>
+<td class="org-right">0.00</td>
+<td class="org-right">4.49</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.10</td>
+<td class="org-right">0.50</td>
+</tr>
+
+<tr>
+<td class="org-right">2021-07-27</td>
+<td class="org-right">1</td>
+<td class="org-right">49.94</td>
+<td class="org-right">49.94</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">49.94</td>
+</tr>
+
+<tr>
+<td class="org-right">2021-07-26</td>
+<td class="org-right">0</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+</tr>
+
+<tr>
+<td class="org-right">2021-07-25</td>
+<td class="org-right">1</td>
+<td class="org-right">20.97</td>
+<td class="org-right">23.97</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">3.00</td>
+<td class="org-right">20.97</td>
+</tr>
+
+<tr>
+<td class="org-right">2021-07-24</td>
+<td class="org-right">3</td>
+<td class="org-right">89.87</td>
+<td class="org-right">95.87</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">6.00</td>
+<td class="org-right">89.87</td>
+</tr>
+
+<tr>
+<td class="org-right">2021-07-23</td>
+<td class="org-right">0</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+</tr>
+
+<tr>
+<td class="org-right">2021-07-22</td>
+<td class="org-right">0</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+</tr>
+
+<tr>
+<td class="org-right">2021-07-21</td>
+<td class="org-right">0</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+</tr>
+
+<tr>
+<td class="org-right">2021-07-20</td>
+<td class="org-right">0</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+</tr>
+
+<tr>
+<td class="org-right">2021-07-19</td>
+<td class="org-right">0</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+</tr>
+
+<tr>
+<td class="org-right">2021-07-18</td>
+<td class="org-right">0</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+</tr>
+
+<tr>
+<td class="org-right">2021-07-17</td>
+<td class="org-right">0</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+</tr>
+
+<tr>
+<td class="org-right">2021-07-16</td>
+<td class="org-right">1</td>
+<td class="org-right">3.99</td>
+<td class="org-right">0.40</td>
+<td class="org-right">0.00</td>
+<td class="org-right">3.59</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.40</td>
+</tr>
+
+<tr>
+<td class="org-right">2021-07-15</td>
+<td class="org-right">1</td>
+<td class="org-right">7.99</td>
+<td class="org-right">7.99</td>
+<td class="org-right">0.00</td>
+<td class="org-right">4.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">4.00</td>
+<td class="org-right">3.99</td>
+</tr>
+
+<tr>
+<td class="org-right">2021-07-14</td>
+<td class="org-right">1</td>
+<td class="org-right">7.99</td>
+<td class="org-right">7.99</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">7.99</td>
+</tr>
+
+<tr>
+<td class="org-right">2021-07-13</td>
+<td class="org-right">2</td>
+<td class="org-right">15.98</td>
+<td class="org-right">1.60</td>
+<td class="org-right">0.00</td>
+<td class="org-right">14.38</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">1.60</td>
+</tr>
+
+<tr>
+<td class="org-right">2021-07-12</td>
+<td class="org-right">0</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+</tr>
+
+<tr>
+<td class="org-right">2021-07-11</td>
+<td class="org-right">0</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+</tr>
+
+<tr>
+<td class="org-right">2021-07-10</td>
+<td class="org-right">0</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+</tr>
+
+<tr>
+<td class="org-right">2021-07-09</td>
+<td class="org-right">0</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+</tr>
+
+<tr>
+<td class="org-right">2021-07-08</td>
+<td class="org-right">0</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+</tr>
+
+<tr>
+<td class="org-right">2021-07-07</td>
+<td class="org-right">0</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+</tr>
+
+<tr>
+<td class="org-right">2021-07-06</td>
+<td class="org-right">0</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+</tr>
+
+<tr>
+<td class="org-right">2021-07-05</td>
+<td class="org-right">0</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+</tr>
+
+<tr>
+<td class="org-right">2021-07-04</td>
+<td class="org-right">0</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+</tr>
+
+<tr>
+<td class="org-right">2021-07-03</td>
+<td class="org-right">0</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+</tr>
+
+<tr>
+<td class="org-right">2021-07-02</td>
+<td class="org-right">0</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+</tr>
+
+<tr>
+<td class="org-right">2021-07-01</td>
+<td class="org-right">0</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">11</td>
+<td class="org-right">201.72 eur</td>
+<td class="org-right">188.36 eur</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">26.46</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">13.1</td>
+<td class="org-right">175.26 eur</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orga28d893" class="outline-3">
+<h3 id="orga28d893">Web analytics</h3>
+<div class="outline-text-3" id="text-orga28d893">
+</div>
+<div id="outline-container-org4c69104" class="outline-4">
+<h4 id="org4c69104">By Country</h4>
+<div class="outline-text-4" id="text-org4c69104">
+<p>
+20210701-20210730
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Country</th>
+<th scope="col" class="org-right">Users</th>
+<th scope="col" class="org-right">New Users</th>
+<th scope="col" class="org-right">Sessions</th>
+<th scope="col" class="org-right">Bounce Rate</th>
+<th scope="col" class="org-right">Pages / Session</th>
+<th scope="col" class="org-right">Avg. Session Duration</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Lithuania</td>
+<td class="org-right">179</td>
+<td class="org-right">180</td>
+<td class="org-right">232</td>
+<td class="org-right">28.45%</td>
+<td class="org-right">5.10</td>
+<td class="org-right">00:03:00</td>
+</tr>
+
+<tr>
+<td class="org-left">United Kingdom</td>
+<td class="org-right">4</td>
+<td class="org-right">4</td>
+<td class="org-right">4</td>
+<td class="org-right">75.00%</td>
+<td class="org-right">2.50</td>
+<td class="org-right">00:00:17</td>
+</tr>
+
+<tr>
+<td class="org-left">Germany</td>
+<td class="org-right">3</td>
+<td class="org-right">3</td>
+<td class="org-right">3</td>
+<td class="org-right">66.67%</td>
+<td class="org-right">3.00</td>
+<td class="org-right">00:00:40</td>
+</tr>
+
+<tr>
+<td class="org-left">Norway</td>
+<td class="org-right">2</td>
+<td class="org-right">2</td>
+<td class="org-right">2</td>
+<td class="org-right">0.00%</td>
+<td class="org-right">3.50</td>
+<td class="org-right">00:00:56</td>
+</tr>
+
+<tr>
+<td class="org-left">Brazil</td>
+<td class="org-right">1</td>
+<td class="org-right">1</td>
+<td class="org-right">1</td>
+<td class="org-right">100.00%</td>
+<td class="org-right">1.00</td>
+<td class="org-right">00:00:00</td>
+</tr>
+
+<tr>
+<td class="org-left">Spain</td>
+<td class="org-right">1</td>
+<td class="org-right">1</td>
+<td class="org-right">1</td>
+<td class="org-right">0.00%</td>
+<td class="org-right">18.00</td>
+<td class="org-right">00:05:31</td>
+</tr>
+
+<tr>
+<td class="org-left">Italy</td>
+<td class="org-right">1</td>
+<td class="org-right">1</td>
+<td class="org-right">1</td>
+<td class="org-right">0.00%</td>
+<td class="org-right">15.00</td>
+<td class="org-right">00:03:47</td>
+</tr>
+
+<tr>
+<td class="org-left">South Korea</td>
+<td class="org-right">1</td>
+<td class="org-right">1</td>
+<td class="org-right">1</td>
+<td class="org-right">100.00%</td>
+<td class="org-right">1.00</td>
+<td class="org-right">00:00:00</td>
+</tr>
+
+<tr>
+<td class="org-left">Monaco</td>
+<td class="org-right">1</td>
+<td class="org-right">1</td>
+<td class="org-right">1</td>
+<td class="org-right">100.00%</td>
+<td class="org-right">1.00</td>
+<td class="org-right">00:00:00</td>
+</tr>
+
+<tr>
+<td class="org-left">Netherlands</td>
+<td class="org-right">1</td>
+<td class="org-right">1</td>
+<td class="org-right">1</td>
+<td class="org-right">0.00%</td>
+<td class="org-right">2.00</td>
+<td class="org-right">00:00:28</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">196</td>
+<td class="org-right">197</td>
+<td class="org-right">251</td>
+<td class="org-right">30.68%</td>
+<td class="org-right">5.05</td>
+<td class="org-right">00:02:56</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<div id="outline-container-orgc3534d6" class="outline-4">
+<h4 id="orgc3534d6">By City</h4>
+<div class="outline-text-4" id="text-orgc3534d6">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">City</th>
+<th scope="col" class="org-right">Users</th>
+<th scope="col" class="org-right">New Users</th>
+<th scope="col" class="org-right">Sessions</th>
+<th scope="col" class="org-right">Bounce Rate</th>
+<th scope="col" class="org-right">Pages / Session</th>
+<th scope="col" class="org-right">Avg. Session Duration</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Vilnius</td>
+<td class="org-right">117</td>
+<td class="org-right">116</td>
+<td class="org-right">154</td>
+<td class="org-right">29.87%</td>
+<td class="org-right">4.84</td>
+<td class="org-right">00:02:55</td>
+</tr>
+
+<tr>
+<td class="org-left">Kaunas</td>
+<td class="org-right">20</td>
+<td class="org-right">20</td>
+<td class="org-right">24</td>
+<td class="org-right">16.67%</td>
+<td class="org-right">5.79</td>
+<td class="org-right">00:04:03</td>
+</tr>
+
+<tr>
+<td class="org-left">(not set)</td>
+<td class="org-right">14</td>
+<td class="org-right">13</td>
+<td class="org-right">18</td>
+<td class="org-right">44.44%</td>
+<td class="org-right">5.83</td>
+<td class="org-right">00:02:52</td>
+</tr>
+
+<tr>
+<td class="org-left">Panevezys</td>
+<td class="org-right">9</td>
+<td class="org-right">8</td>
+<td class="org-right">9</td>
+<td class="org-right">22.22%</td>
+<td class="org-right">8.56</td>
+<td class="org-right">00:05:30</td>
+</tr>
+
+<tr>
+<td class="org-left">Klaipeda</td>
+<td class="org-right">5</td>
+<td class="org-right">5</td>
+<td class="org-right">8</td>
+<td class="org-right">25.00%</td>
+<td class="org-right">5.12</td>
+<td class="org-right">00:04:44</td>
+</tr>
+
+<tr>
+<td class="org-left">Siauliai</td>
+<td class="org-right">5</td>
+<td class="org-right">5</td>
+<td class="org-right">5</td>
+<td class="org-right">0.00%</td>
+<td class="org-right">3.60</td>
+<td class="org-right">00:04:03</td>
+</tr>
+
+<tr>
+<td class="org-left">(not set)</td>
+<td class="org-right">3</td>
+<td class="org-right">3</td>
+<td class="org-right">3</td>
+<td class="org-right">33.33%</td>
+<td class="org-right">6.67</td>
+<td class="org-right">00:01:25</td>
+</tr>
+
+<tr>
+<td class="org-left">Taurage</td>
+<td class="org-right">2</td>
+<td class="org-right">2</td>
+<td class="org-right">2</td>
+<td class="org-right">0.00%</td>
+<td class="org-right">2.50</td>
+<td class="org-right">00:00:35</td>
+</tr>
+
+<tr>
+<td class="org-left">(not set)</td>
+<td class="org-right">2</td>
+<td class="org-right">1</td>
+<td class="org-right">3</td>
+<td class="org-right">66.67%</td>
+<td class="org-right">3.33</td>
+<td class="org-right">00:00:19</td>
+</tr>
+
+<tr>
+<td class="org-left">(not set)</td>
+<td class="org-right">2</td>
+<td class="org-right">2</td>
+<td class="org-right">2</td>
+<td class="org-right">100.00%</td>
+<td class="org-right">1.00</td>
+<td class="org-right">00:00:00</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">201</td>
+<td class="org-right">197</td>
+<td class="org-right">251</td>
+<td class="org-right">30.68%</td>
+<td class="org-right">5.05</td>
+<td class="org-right">00:02:56</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<div id="outline-container-org860fcbe" class="outline-4">
+<h4 id="org860fcbe">Devices</h4>
+<div class="outline-text-4" id="text-org860fcbe">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Device Category</th>
+<th scope="col" class="org-right">Users</th>
+<th scope="col" class="org-right">New Users</th>
+<th scope="col" class="org-right">Sessions</th>
+<th scope="col" class="org-right">Bounce Rate</th>
+<th scope="col" class="org-right">Pages / Session</th>
+<th scope="col" class="org-right">Avg. Session Duration</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">mobile</td>
+<td class="org-right">128</td>
+<td class="org-right">129</td>
+<td class="org-right">175</td>
+<td class="org-right">33.71%</td>
+<td class="org-right">4.61</td>
+<td class="org-right">00:02:48</td>
+</tr>
+
+<tr>
+<td class="org-left">desktop</td>
+<td class="org-right">58</td>
+<td class="org-right">58</td>
+<td class="org-right">62</td>
+<td class="org-right">22.58%</td>
+<td class="org-right">6.11</td>
+<td class="org-right">00:03:18</td>
+</tr>
+
+<tr>
+<td class="org-left">tablet</td>
+<td class="org-right">10</td>
+<td class="org-right">10</td>
+<td class="org-right">14</td>
+<td class="org-right">28.57%</td>
+<td class="org-right">5.86</td>
+<td class="org-right">00:03:04</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">196</td>
+<td class="org-right">197</td>
+<td class="org-right">251</td>
+<td class="org-right">30.68%</td>
+<td class="org-right">5.05</td>
+<td class="org-right">00:02:56</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<div id="outline-container-org39808b3" class="outline-4">
+<h4 id="org39808b3">Browser</h4>
+<div class="outline-text-4" id="text-org39808b3">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Browser</th>
+<th scope="col" class="org-right">Users</th>
+<th scope="col" class="org-right">New Users</th>
+<th scope="col" class="org-right">Sessions</th>
+<th scope="col" class="org-right">Bounce Rate</th>
+<th scope="col" class="org-right">Pages / Session</th>
+<th scope="col" class="org-right">Avg. Session Duration</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Chrome</td>
+<td class="org-right">133</td>
+<td class="org-right">134</td>
+<td class="org-right">175</td>
+<td class="org-right">28.57%</td>
+<td class="org-right">5.33</td>
+<td class="org-right">00:02:47</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">Samsung Internet</td>
+<td class="org-right">20</td>
+<td class="org-right">20</td>
+<td class="org-right">22</td>
+<td class="org-right">18.18%</td>
+<td class="org-right">5.36</td>
+<td class="org-right">00:02:53</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">Safari</td>
+<td class="org-right">18</td>
+<td class="org-right">18</td>
+<td class="org-right">21</td>
+<td class="org-right">57.14%</td>
+<td class="org-right">2.14</td>
+<td class="org-right">00:03:45</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">Firefox</td>
+<td class="org-right">13</td>
+<td class="org-right">13</td>
+<td class="org-right">21</td>
+<td class="org-right">28.57%</td>
+<td class="org-right">5.43</td>
+<td class="org-right">00:03:03</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">Edge</td>
+<td class="org-right">6</td>
+<td class="org-right">6</td>
+<td class="org-right">6</td>
+<td class="org-right">0.00%</td>
+<td class="org-right">6.83</td>
+<td class="org-right">00:07:01</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">Android Webview</td>
+<td class="org-right">5</td>
+<td class="org-right">5</td>
+<td class="org-right">5</td>
+<td class="org-right">80.00%</td>
+<td class="org-right">3.00</td>
+<td class="org-right">00:00:26</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">Opera</td>
+<td class="org-right">1</td>
+<td class="org-right">1</td>
+<td class="org-right">1</td>
+<td class="org-right">100.00%</td>
+<td class="org-right">1.00</td>
+<td class="org-right">00:00:00</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">196</td>
+<td class="org-right">197</td>
+<td class="org-right">251</td>
+<td class="org-right">30.68%</td>
+<td class="org-right">5.05</td>
+<td class="org-right">00:02:56</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orgae150f8" class="outline-2">
+<h2 id="orgae150f8">2021-08</h2>
+<div class="outline-text-2" id="text-orgae150f8">
+</div>
+<div id="outline-container-org10fb4ec" class="outline-3">
+<h3 id="org10fb4ec">Sales</h3>
+<div class="outline-text-3" id="text-org10fb4ec">
+</div>
+<div id="outline-container-orga37fb85" class="outline-4">
+<h4 id="orga37fb85">Categories</h4>
+<div class="outline-text-4" id="text-orga37fb85">
+</div>
+<ul class="org-ul">
+<li><a id="orgf7701e2"></a>2021-07<br />
+<div class="outline-text-5" id="text-orgf7701e2">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Category</th>
+<th scope="col" class="org-right">Items Sold</th>
+<th scope="col" class="org-right">Net Sales</th>
+<th scope="col" class="org-right">Products</th>
+<th scope="col" class="org-right">Orders</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Dešros ir dešrelės</td>
+<td class="org-right">17</td>
+<td class="org-right">99.56</td>
+<td class="org-right">4</td>
+<td class="org-right">10</td>
+</tr>
+
+<tr>
+<td class="org-left">Lašiniai</td>
+<td class="org-right">10</td>
+<td class="org-right">66.71</td>
+<td class="org-right">2</td>
+<td class="org-right">6</td>
+</tr>
+
+<tr>
+<td class="org-left">Rūkyti mėsos gaminiai</td>
+<td class="org-right">6</td>
+<td class="org-right">42.94</td>
+<td class="org-right">4</td>
+<td class="org-right">2</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">33</td>
+<td class="org-right">209.21</td>
+<td class="org-right">10</td>
+<td class="org-right">18</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+
+<li><a id="org5cfbc79"></a>2021-08<br />
+<div class="outline-text-5" id="text-org5cfbc79">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Category</th>
+<th scope="col" class="org-right">Items Sold</th>
+<th scope="col" class="org-right">Net Sales</th>
+<th scope="col" class="org-right">Products</th>
+<th scope="col" class="org-right">Orders</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Dešros ir dešrelės</td>
+<td class="org-right">13</td>
+<td class="org-right">85.87</td>
+<td class="org-right">3</td>
+<td class="org-right">4</td>
+</tr>
+
+<tr>
+<td class="org-left">Rūkyti mėsos gaminiai</td>
+<td class="org-right">7</td>
+<td class="org-right">40.93</td>
+<td class="org-right">3</td>
+<td class="org-right">4</td>
+</tr>
+
+<tr>
+<td class="org-left">Lašiniai</td>
+<td class="org-right">1</td>
+<td class="org-right">4.99</td>
+<td class="org-right">1</td>
+<td class="org-right">1</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">21</td>
+<td class="org-right">131.79</td>
+<td class="org-right">7</td>
+<td class="org-right">9</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+
+
+<div id="outline-container-org3c87325" class="outline-4">
+<h4 id="org3c87325">Orders</h4>
+<div class="outline-text-4" id="text-org3c87325">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-left" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Date</th>
+<th scope="col" class="org-right">Order #</th>
+<th scope="col" class="org-left">Status</th>
+<th scope="col" class="org-left">Customer</th>
+<th scope="col" class="org-left">Customer Type</th>
+<th scope="col" class="org-left">Product(s)</th>
+<th scope="col" class="org-right">Items Sold</th>
+<th scope="col" class="org-left">Coupon(s)</th>
+<th scope="col" class="org-right">Net Sales</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">2021-07-28 13:01:57</td>
+<td class="org-right">7193</td>
+<td class="org-left">completed</td>
+<td class="org-left">Arvydas Gaspa</td>
+<td class="org-left">new</td>
+<td class="org-left">1× Aukštaitiška dešra 500g</td>
+<td class="org-right">1</td>
+<td class="org-left">testukas</td>
+<td class="org-right">0.5</td>
+</tr>
+
+<tr>
+<td class="org-left">2021-07-27 06:21:34</td>
+<td class="org-right">7191</td>
+<td class="org-left">completed</td>
+<td class="org-left">Eugenijus Kambaras</td>
+<td class="org-left">new</td>
+<td class="org-left">4× Šaltai rūkyti lašiniai 1kg, 2× Aukštaitiška dešra 1kg</td>
+<td class="org-right">6</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">49.94</td>
+</tr>
+
+<tr>
+<td class="org-left">2021-07-25 13:16:54</td>
+<td class="org-right">7180</td>
+<td class="org-left">completed</td>
+<td class="org-left">SAULIUS Antulevičius</td>
+<td class="org-left">new</td>
+<td class="org-left">1× Mažai parūkytos dešrelės 450g, 1× Aukštaitiška dešra 1kg, 1× Šaltai rūkyti lašiniai 1kg</td>
+<td class="org-right">3</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">20.97</td>
+</tr>
+
+<tr>
+<td class="org-left">2021-07-24 17:25:41</td>
+<td class="org-right">7179</td>
+<td class="org-left">completed</td>
+<td class="org-left">Žaneta Burbulevičienė</td>
+<td class="org-left">new</td>
+<td class="org-left">1× Karštai rūkyta dešra 1kg, 1× Aukštaitiška dešra 1kg, 1× Mažai parūkytos dešrelės 900g, 1× Vytintos dešrelės 500g, 1× Karštai rūkytas kumpis 1kg, 1× Karštai rūkyta šoninė 1kg, 1× Šaltai rūkyti lašiniai 500g</td>
+<td class="org-right">7</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">54.43</td>
+</tr>
+
+<tr>
+<td class="org-left">2021-07-24 14:11:36</td>
+<td class="org-right">7178</td>
+<td class="org-left">completed</td>
+<td class="org-left">Simonas Stonys</td>
+<td class="org-left">new</td>
+<td class="org-left">1× Karštai rūkyta dešra 500g, 1× Karštai rūkyta šoninė 500g, 1× Mažai parūkytos dešrelės 450g, 1× Aukštaitiška dešra 500g</td>
+<td class="org-right">4</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">18.46</td>
+</tr>
+
+<tr>
+<td class="org-left">2021-07-24 13:27:10</td>
+<td class="org-right">7177</td>
+<td class="org-left">completed</td>
+<td class="org-left">Jolanta Lukšienė</td>
+<td class="org-left">new</td>
+<td class="org-left">1× Šaltai rūkyti lašiniai 1kg, 1× Aukštaitiška dešra 1kg</td>
+<td class="org-right">2</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">16.98</td>
+</tr>
+
+<tr>
+<td class="org-left">2021-07-16 14:41:19</td>
+<td class="org-right">7142</td>
+<td class="org-left">completed</td>
+<td class="org-left">Obels Dūmas</td>
+<td class="org-left">new</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">1</td>
+<td class="org-left">testukas</td>
+<td class="org-right">0.4</td>
+</tr>
+
+<tr>
+<td class="org-left">2021-07-15 10:12:07</td>
+<td class="org-right">7087</td>
+<td class="org-left">completed</td>
+<td class="org-left">Giedrė Gasparavičienė</td>
+<td class="org-left">new</td>
+<td class="org-left">1× Mažai parūkytos dešrelės</td>
+<td class="org-right">1</td>
+<td class="org-left">draugai</td>
+<td class="org-right">3.99</td>
+</tr>
+
+<tr>
+<td class="org-left">2021-07-14 11:26:09</td>
+<td class="org-right">6986</td>
+<td class="org-left">completed</td>
+<td class="org-left">Arūnė Švenčionė</td>
+<td class="org-left">new</td>
+<td class="org-left">1× Mažai parūkytos dešrelės</td>
+<td class="org-right">1</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">7.99</td>
+</tr>
+
+<tr>
+<td class="org-left">2021-07-13 16:11:52</td>
+<td class="org-right">6984</td>
+<td class="org-left">completed</td>
+<td class="org-left">Arvydas Gasparavicius</td>
+<td class="org-left">returning</td>
+<td class="org-left">1× Šaltai rūkyti lašiniai</td>
+<td class="org-right">1</td>
+<td class="org-left">testukas</td>
+<td class="org-right">0.8</td>
+</tr>
+
+<tr>
+<td class="org-left">2021-07-13 15:15:05</td>
+<td class="org-right">6983</td>
+<td class="org-left">completed</td>
+<td class="org-left">Arvydas Gasparavicius</td>
+<td class="org-left">new</td>
+<td class="org-left">1× Mažai parūkytos dešrelės</td>
+<td class="org-right">1</td>
+<td class="org-left">testukas</td>
+<td class="org-right">0.8</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">28</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">175.26 eur</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<div id="outline-container-org5b14152" class="outline-4">
+<h4 id="org5b14152">Products</h4>
+<div class="outline-text-4" id="text-org5b14152">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-left" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Product Title</th>
+<th scope="col" class="org-right">Items Sold</th>
+<th scope="col" class="org-right">Net Sales</th>
+<th scope="col" class="org-right">Orders</th>
+<th scope="col" class="org-left">Category</th>
+<th scope="col" class="org-right">Variations</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Šaltai rūkyti lašiniai</td>
+<td class="org-right">8</td>
+<td class="org-right">52.73</td>
+<td class="org-right">5</td>
+<td class="org-left">Lašiniai</td>
+<td class="org-right">2</td>
+</tr>
+
+<tr>
+<td class="org-left">Mažai parūkytos dešrelės</td>
+<td class="org-right">7</td>
+<td class="org-right">29.15</td>
+<td class="org-right">7</td>
+<td class="org-left">Dešros ir dešrelės</td>
+<td class="org-right">2</td>
+</tr>
+
+<tr>
+<td class="org-left">Aukštaitiška dešra</td>
+<td class="org-right">7</td>
+<td class="org-right">50.44</td>
+<td class="org-right">6</td>
+<td class="org-left">Dešros ir dešrelės</td>
+<td class="org-right">2</td>
+</tr>
+
+<tr>
+<td class="org-left">Karštai rūkyta dešra</td>
+<td class="org-right">2</td>
+<td class="org-right">12.98</td>
+<td class="org-right">2</td>
+<td class="org-left">Dešros ir dešrelės, Rūkyti mėsos gaminiai</td>
+<td class="org-right">2</td>
+</tr>
+
+<tr>
+<td class="org-left">Karštai rūkyta šoninė</td>
+<td class="org-right">2</td>
+<td class="org-right">13.98</td>
+<td class="org-right">2</td>
+<td class="org-left">Lašiniai, Rūkyti mėsos gaminiai</td>
+<td class="org-right">2</td>
+</tr>
+
+<tr>
+<td class="org-left">Karštai rūkytas kumpis</td>
+<td class="org-right">1</td>
+<td class="org-right">8.99</td>
+<td class="org-right">1</td>
+<td class="org-left">Rūkyti mėsos gaminiai</td>
+<td class="org-right">2</td>
+</tr>
+
+<tr>
+<td class="org-left">Vytintos dešrelės</td>
+<td class="org-right">1</td>
+<td class="org-right">6.99</td>
+<td class="org-right">1</td>
+<td class="org-left">Dešros ir dešrelės, Rūkyti mėsos gaminiai</td>
+<td class="org-right">2</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">28</td>
+<td class="org-right">175.26 eur</td>
+<td class="org-right">24</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<div id="outline-container-orgdc57487" class="outline-4">
+<h4 id="orgdc57487">Variations</h4>
+<div class="outline-text-4" id="text-orgdc57487">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-left" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Product / Variation Title</th>
+<th scope="col" class="org-right">Items Sold</th>
+<th scope="col" class="org-right">Net Sales</th>
+<th scope="col" class="org-right">Orders</th>
+<th scope="col" class="org-left">Status</th>
+<th scope="col" class="org-right">Stock</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Šaltai rūkyti lašiniai 1kg</td>
+<td class="org-right">6</td>
+<td class="org-right">47.94</td>
+<td class="org-right">3</td>
+<td class="org-left">In stock</td>
+<td class="org-right">5</td>
+</tr>
+
+<tr>
+<td class="org-left">Aukštaitiška dešra 1kg</td>
+<td class="org-right">5</td>
+<td class="org-right">44.95</td>
+<td class="org-right">4</td>
+<td class="org-left">In stock</td>
+<td class="org-right">4</td>
+</tr>
+
+<tr>
+<td class="org-left">Aukštaitiška dešra 500g</td>
+<td class="org-right">2</td>
+<td class="org-right">5.49</td>
+<td class="org-right">2</td>
+<td class="org-left">In stock</td>
+<td class="org-right">4</td>
+</tr>
+
+<tr>
+<td class="org-left">Mažai parūkytos dešrelės 450g</td>
+<td class="org-right">2</td>
+<td class="org-right">7.98</td>
+<td class="org-right">2</td>
+<td class="org-left">In stock</td>
+<td class="org-right">5</td>
+</tr>
+
+<tr>
+<td class="org-left">Karštai rūkytas kumpis 1kg</td>
+<td class="org-right">1</td>
+<td class="org-right">8.99</td>
+<td class="org-right">1</td>
+<td class="org-left">In stock</td>
+<td class="org-right">5</td>
+</tr>
+
+<tr>
+<td class="org-left">Vytintos dešrelės 500g</td>
+<td class="org-right">1</td>
+<td class="org-right">6.99</td>
+<td class="org-right">1</td>
+<td class="org-left">In stock</td>
+<td class="org-right">5</td>
+</tr>
+
+<tr>
+<td class="org-left">Mažai parūkytos dešrelės</td>
+<td class="org-right">1</td>
+<td class="org-right">0.4</td>
+<td class="org-right">1</td>
+<td class="org-left">In stock</td>
+<td class="org-right">5</td>
+</tr>
+
+<tr>
+<td class="org-left">Šaltai rūkyti lašiniai 500g</td>
+<td class="org-right">1</td>
+<td class="org-right">3.99</td>
+<td class="org-right">1</td>
+<td class="org-left">In stock</td>
+<td class="org-right">5</td>
+</tr>
+
+<tr>
+<td class="org-left">Karštai rūkyta šoninė 1kg</td>
+<td class="org-right">1</td>
+<td class="org-right">8.99</td>
+<td class="org-right">1</td>
+<td class="org-left">In stock</td>
+<td class="org-right">5</td>
+</tr>
+
+<tr>
+<td class="org-left">Karštai rūkyta dešra 1kg</td>
+<td class="org-right">1</td>
+<td class="org-right">8.49</td>
+<td class="org-right">1</td>
+<td class="org-left">In stock</td>
+<td class="org-right">5</td>
+</tr>
+
+<tr>
+<td class="org-left">Mažai parūkytos dešrelės 900g</td>
+<td class="org-right">1</td>
+<td class="org-right">7.99</td>
+<td class="org-right">1</td>
+<td class="org-left">In stock</td>
+<td class="org-right">5</td>
+</tr>
+
+<tr>
+<td class="org-left">Karštai rūkyta šoninė 500g</td>
+<td class="org-right">1</td>
+<td class="org-right">4.99</td>
+<td class="org-right">1</td>
+<td class="org-left">In stock</td>
+<td class="org-right">5</td>
+</tr>
+
+<tr>
+<td class="org-left">Karštai rūkyta dešra 500g</td>
+<td class="org-right">1</td>
+<td class="org-right">4.49</td>
+<td class="org-right">1</td>
+<td class="org-left">In stock</td>
+<td class="org-right">5</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">24</td>
+<td class="org-right">161.68 eur</td>
+<td class="org-right">20</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<div id="outline-container-orgccb7bc4" class="outline-4">
+<h4 id="orgccb7bc4">Revenue</h4>
+<div class="outline-text-4" id="text-orgccb7bc4">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-right">Date</th>
+<th scope="col" class="org-right">Orders</th>
+<th scope="col" class="org-right">Gross Sales</th>
+<th scope="col" class="org-right">Total Sales</th>
+<th scope="col" class="org-right">Returns</th>
+<th scope="col" class="org-right">Coupons</th>
+<th scope="col" class="org-right">Taxes</th>
+<th scope="col" class="org-right">Shipping</th>
+<th scope="col" class="org-right">Net Revenue</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-right">2021-07-30</td>
+<td class="org-right">0</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+</tr>
+
+<tr>
+<td class="org-right">2021-07-29</td>
+<td class="org-right">0</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+</tr>
+
+<tr>
+<td class="org-right">2021-07-28</td>
+<td class="org-right">1</td>
+<td class="org-right">4.99</td>
+<td class="org-right">0.60</td>
+<td class="org-right">0.00</td>
+<td class="org-right">4.49</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.10</td>
+<td class="org-right">0.50</td>
+</tr>
+
+<tr>
+<td class="org-right">2021-07-27</td>
+<td class="org-right">1</td>
+<td class="org-right">49.94</td>
+<td class="org-right">49.94</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">49.94</td>
+</tr>
+
+<tr>
+<td class="org-right">2021-07-26</td>
+<td class="org-right">0</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+</tr>
+
+<tr>
+<td class="org-right">2021-07-25</td>
+<td class="org-right">1</td>
+<td class="org-right">20.97</td>
+<td class="org-right">23.97</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">3.00</td>
+<td class="org-right">20.97</td>
+</tr>
+
+<tr>
+<td class="org-right">2021-07-24</td>
+<td class="org-right">3</td>
+<td class="org-right">89.87</td>
+<td class="org-right">95.87</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">6.00</td>
+<td class="org-right">89.87</td>
+</tr>
+
+<tr>
+<td class="org-right">2021-07-23</td>
+<td class="org-right">0</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+</tr>
+
+<tr>
+<td class="org-right">2021-07-22</td>
+<td class="org-right">0</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+</tr>
+
+<tr>
+<td class="org-right">2021-07-21</td>
+<td class="org-right">0</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+</tr>
+
+<tr>
+<td class="org-right">2021-07-20</td>
+<td class="org-right">0</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+</tr>
+
+<tr>
+<td class="org-right">2021-07-19</td>
+<td class="org-right">0</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+</tr>
+
+<tr>
+<td class="org-right">2021-07-18</td>
+<td class="org-right">0</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+</tr>
+
+<tr>
+<td class="org-right">2021-07-17</td>
+<td class="org-right">0</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+</tr>
+
+<tr>
+<td class="org-right">2021-07-16</td>
+<td class="org-right">1</td>
+<td class="org-right">3.99</td>
+<td class="org-right">0.40</td>
+<td class="org-right">0.00</td>
+<td class="org-right">3.59</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.40</td>
+</tr>
+
+<tr>
+<td class="org-right">2021-07-15</td>
+<td class="org-right">1</td>
+<td class="org-right">7.99</td>
+<td class="org-right">7.99</td>
+<td class="org-right">0.00</td>
+<td class="org-right">4.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">4.00</td>
+<td class="org-right">3.99</td>
+</tr>
+
+<tr>
+<td class="org-right">2021-07-14</td>
+<td class="org-right">1</td>
+<td class="org-right">7.99</td>
+<td class="org-right">7.99</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">7.99</td>
+</tr>
+
+<tr>
+<td class="org-right">2021-07-13</td>
+<td class="org-right">2</td>
+<td class="org-right">15.98</td>
+<td class="org-right">1.60</td>
+<td class="org-right">0.00</td>
+<td class="org-right">14.38</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">1.60</td>
+</tr>
+
+<tr>
+<td class="org-right">2021-07-12</td>
+<td class="org-right">0</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+</tr>
+
+<tr>
+<td class="org-right">2021-07-11</td>
+<td class="org-right">0</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+</tr>
+
+<tr>
+<td class="org-right">2021-07-10</td>
+<td class="org-right">0</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+</tr>
+
+<tr>
+<td class="org-right">2021-07-09</td>
+<td class="org-right">0</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+</tr>
+
+<tr>
+<td class="org-right">2021-07-08</td>
+<td class="org-right">0</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+</tr>
+
+<tr>
+<td class="org-right">2021-07-07</td>
+<td class="org-right">0</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+</tr>
+
+<tr>
+<td class="org-right">2021-07-06</td>
+<td class="org-right">0</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+</tr>
+
+<tr>
+<td class="org-right">2021-07-05</td>
+<td class="org-right">0</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+</tr>
+
+<tr>
+<td class="org-right">2021-07-04</td>
+<td class="org-right">0</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+</tr>
+
+<tr>
+<td class="org-right">2021-07-03</td>
+<td class="org-right">0</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+</tr>
+
+<tr>
+<td class="org-right">2021-07-02</td>
+<td class="org-right">0</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+</tr>
+
+<tr>
+<td class="org-right">2021-07-01</td>
+<td class="org-right">0</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+<td class="org-right">0.00</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">11</td>
+<td class="org-right">201.72 eur</td>
+<td class="org-right">188.36 eur</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">26.46</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">13.1</td>
+<td class="org-right">175.26 eur</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org91bd5f7" class="outline-3">
+<h3 id="org91bd5f7">Web analytics</h3>
+<div class="outline-text-3" id="text-org91bd5f7">
+</div>
+<div id="outline-container-orgba11d46" class="outline-4">
+<h4 id="orgba11d46">By Country</h4>
+<div class="outline-text-4" id="text-orgba11d46">
+<p>
+20210701-20210730
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Country</th>
+<th scope="col" class="org-right">Users</th>
+<th scope="col" class="org-right">New Users</th>
+<th scope="col" class="org-right">Sessions</th>
+<th scope="col" class="org-right">Bounce Rate</th>
+<th scope="col" class="org-right">Pages / Session</th>
+<th scope="col" class="org-right">Avg. Session Duration</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Lithuania</td>
+<td class="org-right">179</td>
+<td class="org-right">180</td>
+<td class="org-right">232</td>
+<td class="org-right">28.45%</td>
+<td class="org-right">5.10</td>
+<td class="org-right">00:03:00</td>
+</tr>
+
+<tr>
+<td class="org-left">United Kingdom</td>
+<td class="org-right">4</td>
+<td class="org-right">4</td>
+<td class="org-right">4</td>
+<td class="org-right">75.00%</td>
+<td class="org-right">2.50</td>
+<td class="org-right">00:00:17</td>
+</tr>
+
+<tr>
+<td class="org-left">Germany</td>
+<td class="org-right">3</td>
+<td class="org-right">3</td>
+<td class="org-right">3</td>
+<td class="org-right">66.67%</td>
+<td class="org-right">3.00</td>
+<td class="org-right">00:00:40</td>
+</tr>
+
+<tr>
+<td class="org-left">Norway</td>
+<td class="org-right">2</td>
+<td class="org-right">2</td>
+<td class="org-right">2</td>
+<td class="org-right">0.00%</td>
+<td class="org-right">3.50</td>
+<td class="org-right">00:00:56</td>
+</tr>
+
+<tr>
+<td class="org-left">Brazil</td>
+<td class="org-right">1</td>
+<td class="org-right">1</td>
+<td class="org-right">1</td>
+<td class="org-right">100.00%</td>
+<td class="org-right">1.00</td>
+<td class="org-right">00:00:00</td>
+</tr>
+
+<tr>
+<td class="org-left">Spain</td>
+<td class="org-right">1</td>
+<td class="org-right">1</td>
+<td class="org-right">1</td>
+<td class="org-right">0.00%</td>
+<td class="org-right">18.00</td>
+<td class="org-right">00:05:31</td>
+</tr>
+
+<tr>
+<td class="org-left">Italy</td>
+<td class="org-right">1</td>
+<td class="org-right">1</td>
+<td class="org-right">1</td>
+<td class="org-right">0.00%</td>
+<td class="org-right">15.00</td>
+<td class="org-right">00:03:47</td>
+</tr>
+
+<tr>
+<td class="org-left">South Korea</td>
+<td class="org-right">1</td>
+<td class="org-right">1</td>
+<td class="org-right">1</td>
+<td class="org-right">100.00%</td>
+<td class="org-right">1.00</td>
+<td class="org-right">00:00:00</td>
+</tr>
+
+<tr>
+<td class="org-left">Monaco</td>
+<td class="org-right">1</td>
+<td class="org-right">1</td>
+<td class="org-right">1</td>
+<td class="org-right">100.00%</td>
+<td class="org-right">1.00</td>
+<td class="org-right">00:00:00</td>
+</tr>
+
+<tr>
+<td class="org-left">Netherlands</td>
+<td class="org-right">1</td>
+<td class="org-right">1</td>
+<td class="org-right">1</td>
+<td class="org-right">0.00%</td>
+<td class="org-right">2.00</td>
+<td class="org-right">00:00:28</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">196</td>
+<td class="org-right">197</td>
+<td class="org-right">251</td>
+<td class="org-right">30.68%</td>
+<td class="org-right">5.05</td>
+<td class="org-right">00:02:56</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<div id="outline-container-orgde9a57c" class="outline-4">
+<h4 id="orgde9a57c">By City</h4>
+<div class="outline-text-4" id="text-orgde9a57c">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">City</th>
+<th scope="col" class="org-right">Users</th>
+<th scope="col" class="org-right">New Users</th>
+<th scope="col" class="org-right">Sessions</th>
+<th scope="col" class="org-right">Bounce Rate</th>
+<th scope="col" class="org-right">Pages / Session</th>
+<th scope="col" class="org-right">Avg. Session Duration</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Vilnius</td>
+<td class="org-right">117</td>
+<td class="org-right">116</td>
+<td class="org-right">154</td>
+<td class="org-right">29.87%</td>
+<td class="org-right">4.84</td>
+<td class="org-right">00:02:55</td>
+</tr>
+
+<tr>
+<td class="org-left">Kaunas</td>
+<td class="org-right">20</td>
+<td class="org-right">20</td>
+<td class="org-right">24</td>
+<td class="org-right">16.67%</td>
+<td class="org-right">5.79</td>
+<td class="org-right">00:04:03</td>
+</tr>
+
+<tr>
+<td class="org-left">(not set)</td>
+<td class="org-right">14</td>
+<td class="org-right">13</td>
+<td class="org-right">18</td>
+<td class="org-right">44.44%</td>
+<td class="org-right">5.83</td>
+<td class="org-right">00:02:52</td>
+</tr>
+
+<tr>
+<td class="org-left">Panevezys</td>
+<td class="org-right">9</td>
+<td class="org-right">8</td>
+<td class="org-right">9</td>
+<td class="org-right">22.22%</td>
+<td class="org-right">8.56</td>
+<td class="org-right">00:05:30</td>
+</tr>
+
+<tr>
+<td class="org-left">Klaipeda</td>
+<td class="org-right">5</td>
+<td class="org-right">5</td>
+<td class="org-right">8</td>
+<td class="org-right">25.00%</td>
+<td class="org-right">5.12</td>
+<td class="org-right">00:04:44</td>
+</tr>
+
+<tr>
+<td class="org-left">Siauliai</td>
+<td class="org-right">5</td>
+<td class="org-right">5</td>
+<td class="org-right">5</td>
+<td class="org-right">0.00%</td>
+<td class="org-right">3.60</td>
+<td class="org-right">00:04:03</td>
+</tr>
+
+<tr>
+<td class="org-left">(not set)</td>
+<td class="org-right">3</td>
+<td class="org-right">3</td>
+<td class="org-right">3</td>
+<td class="org-right">33.33%</td>
+<td class="org-right">6.67</td>
+<td class="org-right">00:01:25</td>
+</tr>
+
+<tr>
+<td class="org-left">Taurage</td>
+<td class="org-right">2</td>
+<td class="org-right">2</td>
+<td class="org-right">2</td>
+<td class="org-right">0.00%</td>
+<td class="org-right">2.50</td>
+<td class="org-right">00:00:35</td>
+</tr>
+
+<tr>
+<td class="org-left">(not set)</td>
+<td class="org-right">2</td>
+<td class="org-right">1</td>
+<td class="org-right">3</td>
+<td class="org-right">66.67%</td>
+<td class="org-right">3.33</td>
+<td class="org-right">00:00:19</td>
+</tr>
+
+<tr>
+<td class="org-left">(not set)</td>
+<td class="org-right">2</td>
+<td class="org-right">2</td>
+<td class="org-right">2</td>
+<td class="org-right">100.00%</td>
+<td class="org-right">1.00</td>
+<td class="org-right">00:00:00</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">201</td>
+<td class="org-right">197</td>
+<td class="org-right">251</td>
+<td class="org-right">30.68%</td>
+<td class="org-right">5.05</td>
+<td class="org-right">00:02:56</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<div id="outline-container-orgc27bd1a" class="outline-4">
+<h4 id="orgc27bd1a">Devices</h4>
+<div class="outline-text-4" id="text-orgc27bd1a">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Device Category</th>
+<th scope="col" class="org-right">Users</th>
+<th scope="col" class="org-right">New Users</th>
+<th scope="col" class="org-right">Sessions</th>
+<th scope="col" class="org-right">Bounce Rate</th>
+<th scope="col" class="org-right">Pages / Session</th>
+<th scope="col" class="org-right">Avg. Session Duration</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">mobile</td>
+<td class="org-right">128</td>
+<td class="org-right">129</td>
+<td class="org-right">175</td>
+<td class="org-right">33.71%</td>
+<td class="org-right">4.61</td>
+<td class="org-right">00:02:48</td>
+</tr>
+
+<tr>
+<td class="org-left">desktop</td>
+<td class="org-right">58</td>
+<td class="org-right">58</td>
+<td class="org-right">62</td>
+<td class="org-right">22.58%</td>
+<td class="org-right">6.11</td>
+<td class="org-right">00:03:18</td>
+</tr>
+
+<tr>
+<td class="org-left">tablet</td>
+<td class="org-right">10</td>
+<td class="org-right">10</td>
+<td class="org-right">14</td>
+<td class="org-right">28.57%</td>
+<td class="org-right">5.86</td>
+<td class="org-right">00:03:04</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">196</td>
+<td class="org-right">197</td>
+<td class="org-right">251</td>
+<td class="org-right">30.68%</td>
+<td class="org-right">5.05</td>
+<td class="org-right">00:02:56</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<div id="outline-container-org4acaa64" class="outline-4">
+<h4 id="org4acaa64">Browser</h4>
+<div class="outline-text-4" id="text-org4acaa64">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Browser</th>
+<th scope="col" class="org-right">Users</th>
+<th scope="col" class="org-right">New Users</th>
+<th scope="col" class="org-right">Sessions</th>
+<th scope="col" class="org-right">Bounce Rate</th>
+<th scope="col" class="org-right">Pages / Session</th>
+<th scope="col" class="org-right">Avg. Session Duration</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Chrome</td>
+<td class="org-right">133</td>
+<td class="org-right">134</td>
+<td class="org-right">175</td>
+<td class="org-right">28.57%</td>
+<td class="org-right">5.33</td>
+<td class="org-right">00:02:47</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">Samsung Internet</td>
+<td class="org-right">20</td>
+<td class="org-right">20</td>
+<td class="org-right">22</td>
+<td class="org-right">18.18%</td>
+<td class="org-right">5.36</td>
+<td class="org-right">00:02:53</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">Safari</td>
+<td class="org-right">18</td>
+<td class="org-right">18</td>
+<td class="org-right">21</td>
+<td class="org-right">57.14%</td>
+<td class="org-right">2.14</td>
+<td class="org-right">00:03:45</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">Firefox</td>
+<td class="org-right">13</td>
+<td class="org-right">13</td>
+<td class="org-right">21</td>
+<td class="org-right">28.57%</td>
+<td class="org-right">5.43</td>
+<td class="org-right">00:03:03</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">Edge</td>
+<td class="org-right">6</td>
+<td class="org-right">6</td>
+<td class="org-right">6</td>
+<td class="org-right">0.00%</td>
+<td class="org-right">6.83</td>
+<td class="org-right">00:07:01</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">Android Webview</td>
+<td class="org-right">5</td>
+<td class="org-right">5</td>
+<td class="org-right">5</td>
+<td class="org-right">80.00%</td>
+<td class="org-right">3.00</td>
+<td class="org-right">00:00:26</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">Opera</td>
+<td class="org-right">1</td>
+<td class="org-right">1</td>
+<td class="org-right">1</td>
+<td class="org-right">100.00%</td>
+<td class="org-right">1.00</td>
+<td class="org-right">00:00:00</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">196</td>
+<td class="org-right">197</td>
+<td class="org-right">251</td>
+<td class="org-right">30.68%</td>
+<td class="org-right">5.05</td>
+<td class="org-right">00:02:56</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Arvydas</p>
+<p class="date">Created: 2021-08-31 An 15:21</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>

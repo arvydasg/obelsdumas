@@ -1,0 +1,12 @@
+﻿Date,"Order #",Status,Customer,"Customer Type",Product(s),"Items Sold",Coupon(s),"Net Sales"
+"2021-07-28 13:01:57",7193,completed,"Arvydas Gaspa",new,"1× Aukštaitiška dešra<span> - </span>500g",1,testukas,0.5
+"2021-07-27 06:21:34",7191,completed,"Eugenijus Kambaras",new,"4× Šaltai rūkyti lašiniai<span> - </span>1kg, 2× Aukštaitiška dešra<span> - </span>1kg",6,,49.94
+"2021-07-25 13:16:54",7180,completed,"SAULIUS Antulevičius",new,"1× Mažai parūkytos dešrelės<span> - </span>450g, 1× Aukštaitiška dešra<span> - </span>1kg, 1× Šaltai rūkyti lašiniai<span> - </span>1kg",3,,20.97
+"2021-07-24 17:25:41",7179,completed,"Žaneta Burbulevičienė",new,"1× Karštai rūkyta dešra<span> - </span>1kg, 1× Aukštaitiška dešra<span> - </span>1kg, 1× Mažai parūkytos dešrelės<span> - </span>900g, 1× Vytintos dešrelės<span> - </span>500g, 1× Karštai rūkytas kumpis<span> - </span>1kg, 1× Karštai rūkyta šoninė<span> - </span>1kg, 1× Šaltai rūkyti lašiniai<span> - </span>500g",7,,54.43
+"2021-07-24 14:11:36",7178,completed,"Simonas Stonys",new,"1× Karštai rūkyta dešra<span> - </span>500g, 1× Karštai rūkyta šoninė<span> - </span>500g, 1× Mažai parūkytos dešrelės<span> - </span>450g, 1× Aukštaitiška dešra<span> - </span>500g",4,,18.46
+"2021-07-24 13:27:10",7177,completed,"Jolanta Lukšienė",new,"1× Šaltai rūkyti lašiniai<span> - </span>1kg, 1× Aukštaitiška dešra<span> - </span>1kg",2,,16.98
+"2021-07-16 14:41:19",7142,completed,"Obels Dūmas",new,,1,testukas,0.4
+"2021-07-15 10:12:07",7087,completed,"Giedrė Gasparavičienė",new,"1× Mažai parūkytos dešrelės",1,draugai,3.99
+"2021-07-14 11:26:09",6986,completed,"Arūnė Švenčionė",new,"1× Mažai parūkytos dešrelės",1,,7.99
+"2021-07-13 16:11:52",6984,completed,"Arvydas Gasparavicius",returning,"1× Šaltai rūkyti lašiniai",1,testukas,0.8
+"2021-07-13 15:15:05",6983,completed,"Arvydas Gasparavicius",new,"1× Mažai parūkytos dešrelės",1,testukas,0.8

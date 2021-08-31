@@ -1,0 +1,82 @@
+#+STARTUP: overview
+#+ARCHIVE: ~/Dropbox/org/backups/archive/%s_datetree::datetree/
+* Obelsdumas
+  :CLOCK:
+  CLOCK: [2021-08-31 An 14:35]
+  CLOCK: [2021-08-26 Kt 07:03]--[2021-08-26 Kt 08:03] =>  1:00
+  CLOCK: [2021-08-09 Pr 08:20]--[2021-08-09 PR 08:49] =>  0:29
+  CLOCK: [2021-07-15 Thu 11:12]--[2021-07-15 Thu 12:25] =>  1:13 - my modifications - products, Julytes excel dokai
+  CLOCK: [2021-07-15 Thu 09:32]--[2021-07-15 Thu 11:08] =>  1:36 - "Apie mus" skilties modifikavimas - rasytojo darbu uzsiimineju
+  CLOCK: [2021-07-15 Thu 08:25]--[2021-07-15 Thu 09:33] =>  1:08 - modifications according to the email
+  CLOCK: [2021-07-15 Thu 12:25]--[2021-07-15 Thu 14:14] =>  1:49 - su mama koreguojam svetaine
+  CLOCK: [2021-07-15 Thu 18:33]--[2021-07-15 Thu 20:15] =>  1:42 - obelsdumas from trello. pheeeeeew, radau kaip variable price padaryt. zjbs. still daug hidinau, bet ka jau padarysi, reikia launchint puslapi
+  CLOCK: [2021-07-15 Thu 21:19]--[2021-07-15 Thu 23:18] =>  1:59 - variable prices and stuff obelsdumas / google analytics ffs
+  CLOCK: [2021-07-16 Pn 14:02]--[2021-07-16 Pn 14:35] =>  0:33 - variable prices and stuff obelsdumas / google analytics ffs
+  CLOCK: [2021-07-16 Pn 14:38]--[2021-07-16 Pn 15:27] =>  0:49 - removing damn meta tag and adding site-kit properly
+  CLOCK: [2021-07-17 Št 09:17]--[2021-07-17 Št 12:17] =>  3:01 - todos from my list - obelsdumas. --- (emacs ftp, hiding english text fields, and etc... net nebepamenu)
+  CLOCK: [2021-07-17 Št 12:38]--[2021-07-17 Št 14:15] =>  1:37 - trying to set up the seo this video - https://www.youtube.com/watch?v=k5v8KIM9D0M&ab_channel=OnTopMarketing
+  CLOCK: [2021-07-19 Pr 11:53]--[2021-07-19 Pr 11:59] =>  0:06
+  CLOCK: [2021-07-19 Pr 13:12]--[2021-07-19 Pr 13:32] =>  0:20
+  CLOCK: [2021-07-26 Mon 10:13]--[2021-07-26 Mon 10:21] =>  0:08 - modifications
+  CLOCK: [2021-07-27 Tue 09:52]--[2021-07-27 Tue 10:47] =>  0:55 - Obelsdumas - removing salto rukymo lasiniai, adding quantities
+  CLOCK: [2021-07-27 Tue 13:10]--[2021-07-27 Tue 13:10] =>  0:00
+  :END:
+  :PEOPLE:
+    - Arune Svencione
+    - Tautvydas Svencionis
+  :END:
+** pridek i footer - paruošė arvydas.dev
+** Uzduoteles [0/9]
+*** TODO Make an explainer video
+    (tool LOOM on windows) - allows to record screen and audio at the same time.
+
+    blogpost
+    products
+    uzsakymai
+    paysera uzsakymai
+    analytics
+
+    Separate short videos maybe
+    put to youtube and unlist the video
+*** TODO Handing in the site
+**** Create a custom login experience
+**** IN-PROGRESS Install google analytics
+***** Invite Arune to google analytics page, add their gmail under "Account management"
+**** Add favicon/logo
+**** Create a user for a client
+     email has to be client's since he will get a mail with password there.
+     Editor role.
+**** Elementor user roles
+     elementor dont know we just created editor role. (only for elementor pro)
+     https://www.youtube.com/watch?v=YkdHRep3vr0
+     can only change icons and text
+**** wp-admin ui custmize plugin
+**** ManageWP
+**** backups?
+     Interneto vizija praso 9.99 + PVM uz duomenu atstatyma.
+
+     Labas rytas, bendro naudojimo serveriams yra generuojamos naktinės
+     (praeitos nakties) bei savaitgalio (praeito penktadienio)
+     kopijos. Kopijose talpinami visi plane esantys failai bei duomenų
+     bazė. Atsarginės kopijos talpinamos bei saugomos iš mūsų pusės, jų
+     pasiekti Jums galimybės nėra. Jei reikalinga atstatyti duomenų
+     atsarginę kopiją, tai galite atlikti klientų sistemoje, už
+     papildomą 9.99 € + PVM vienkartinį mokestį.  Daugiau informacijos
+     galite rasti šioje instrukcijoje:
+     ﻿https://www.iv.lt/pagalba/Duomen%C5%B3_atstatymas ﻿Jei kils
+     papildomų klausimų, nedvejodami kreipkitės.  Geros dienos!  ﻿
+*** TODO write to some marketing agencies to market our site. maybe modestas?
+*** TODO Monthly graph with stats
+*** TODO Optimize for the mobile use. check google search console
+*** TODO Paziurek rimtai kaip ten su tais lipdukais, ar apsimoka. ar tikrai tik 12ct
+    :LOGBOOK:
+    CLOCK: [2021-07-31 Št 07:16]--[2021-07-31 Št 07:46] =>  0:30
+    :END:
+*** TODO [[file:../obelsdumas/images/mokejimo_budai.png]]
+*** TODO Marketing
+**** facebook posts
+     :LOGBOOK:
+     - Note taken on [2021-07-30 Pn 11:06] \\
+       facebook posts can be with coupon codes, raginimai pirkti
+     :END:
+**** arune  gal noretu ismeginti coupons. padariau nice.
