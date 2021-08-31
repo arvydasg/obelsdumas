@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2021-08-31 An 13:31 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Dienos kaip šventė</title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="Aze" />
+<meta name="description" content="Rami galva"
+ />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<link rel="stylesheet" type="text/css" href="src/bigblow_theme/css/htmlize.css"/>
+<link rel="stylesheet" type="text/css" href="src/bigblow_theme/css/bigblow.css"/>
+<link rel="stylesheet" type="text/css" href="src/bigblow_theme/css/hideshow.css"/>
+<script type="text/javascript" src="src/bigblow_theme/js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="src/bigblow_theme/js/jquery-ui-1.10.2.min.js"></script>
+<script type="text/javascript" src="src/bigblow_theme/js/jquery.localscroll-min.js"></script>
+<script type="text/javascript" src="src/bigblow_theme/js/jquery.scrollTo-1.4.3.1-min.js"></script>
+<script type="text/javascript" src="src/bigblow_theme/js/jquery.zclip.min.js"></script>
+<script type="text/javascript" src="src/bigblow_theme/js/bigblow.js"></script>
+<script type="text/javascript" src="src/bigblow_theme/js/hideshow.js"></script>
+<script type="text/javascript" src="src/lib/js/jquery.stickytableheaders.min.js"></script>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2019 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">Dienos kaip šventė</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#org4192e4f">Archyvas</a>
+<ul>
+<li><a href="#org7152a7a"><span class="timestamp-wrapper"><span class="timestamp">&lt;2021-08-31 An&gt;</span></span></a></li>
+<li><a href="#org36cb3af"><span class="timestamp-wrapper"><span class="timestamp">&lt;2021-08-30 Pr&gt;</span></span></a></li>
+<li><a href="#org1087fb0"><span class="timestamp-wrapper"><span class="timestamp">&lt;2021-08-29 Sk&gt;</span></span></a></li>
+<li><a href="#org67b4cc1"><span class="timestamp-wrapper"><span class="timestamp">&lt;2021-08-28 Št&gt;</span></span></a></li>
+<li><a href="#orgba71b12"><span class="timestamp-wrapper"><span class="timestamp">&lt;2021-08-27 Pn&gt;</span></span></a></li>
+<li><a href="#orgfc8a1ac"><span class="timestamp-wrapper"><span class="timestamp">&lt;2021-08-26 Kt&gt;</span></span></a></li>
+<li><a href="#orgdfa1b69"><span class="timestamp-wrapper"><span class="timestamp">&lt;2021-08-25 Tr&gt;</span></span></a></li>
+<li><a href="#org8b47f5e"><span class="timestamp-wrapper"><span class="timestamp">&lt;2021-08-24 An&gt;</span></span></a></li>
+<li><a href="#org7ea39cf"><span class="timestamp-wrapper"><span class="timestamp">&lt;2021-08-23 Pr&gt;</span></span></a></li>
+<li><a href="#org7568d93"><span class="timestamp-wrapper"><span class="timestamp">&lt;2021-08-22 Sk&gt;</span></span></a></li>
+<li><a href="#org8ba21f7"><span class="timestamp-wrapper"><span class="timestamp">&lt;2021-08-21 Št&gt;</span></span></a></li>
+<li><a href="#orgb7284e9"><span class="timestamp-wrapper"><span class="timestamp">&lt;2021-08-20 Pn&gt;</span></span></a></li>
+<li><a href="#org333210f"><span class="timestamp-wrapper"><span class="timestamp">&lt;2021-08-19 Kt&gt;</span></span></a></li>
+<li><a href="#orgaf04868"><span class="timestamp-wrapper"><span class="timestamp">&lt;2021-08-18 Tr&gt;</span></span></a></li>
+<li><a href="#orgfbd09e2"><span class="timestamp-wrapper"><span class="timestamp">&lt;2021-08-17 An&gt;</span></span></a></li>
+<li><a href="#org4ded0fc">Things learned</a></li>
+</ul>
+</li>
+<li><a href="#orgd39b3cd">Galimos veiklos</a>
+<ul>
+<li><a href="#org870c632">Panevezys</a></li>
+<li><a href="#orgc3baf95">Siaip uz miesto (?)</a></li>
+<li><a href="#orgd78f434">Valgymas</a></li>
+<li><a href="#orgc50fb7e">Vilnius (South)</a></li>
+</ul>
+</li>
+<li><a href="#orgc937640">Suplanuotos veiklos</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org4192e4f" class="outline-2">
+<h2 id="org4192e4f">Archyvas</h2>
+<div class="outline-text-2" id="text-org4192e4f">
+</div>
+<div id="outline-container-org7152a7a" class="outline-3">
+<h3 id="org7152a7a"><span class="timestamp-wrapper"><span class="timestamp">&lt;2021-08-31 An&gt;</span></span></h3>
+<div class="outline-text-3" id="text-org7152a7a">
+</div>
+<ul class="org-ul">
+<li><a id="org3efd720"></a>Traskuciu gamyklos ekskursija<br /></li>
+<li><a id="org82d316b"></a>Decathalonas<br /></li>
+<li><a id="orgf358f2a"></a>12:45 Sveteliai turi buti oro uoste<br /></li>
+<li><a id="org2d285e7"></a>14:45 Sveteliai isvaro<br /></li>
+</ul>
+</div>
+<div id="outline-container-org36cb3af" class="outline-3">
+<h3 id="org36cb3af"><span class="timestamp-wrapper"><span class="timestamp">&lt;2021-08-30 Pr&gt;</span></span></h3>
+<div class="outline-text-3" id="text-org36cb3af">
+</div>
+<ul class="org-ul">
+<li><a id="orgc48448a"></a>Bazilikais bundialos Clement (maxima)<br /></li>
+<li><a id="org93a1f94"></a>Sveteliai buna Vilniuje (2/2)<br /></li>
+<li><a id="org3af0444"></a><a href="https://vilnius.lt/lt/2021/08/18/vilniaus-centre-iskilo-naujas-sodas-siuolaikinio-meno-kurinys/">Siolaikinio meno kurinys</a><br /></li>
+<li><a id="orge252343"></a>Arvydas su Julyte i Vilniu (darbo diena)<br /></li>
+<li><a id="org6a9c26e"></a>Portalas i Liublina (lijo, grazu, susimojavom)<br /></li>
+<li><a id="orgf4124e5"></a>Vakare paspirtukais po Vilniu (uzupis) (nemegsta paspirtuku)<br /></li>
+<li><a id="org827b751"></a>Lektuvu stebejimo aikstele arba oro balionu pakilimu/nusileidimu stebejimas<br /></li>
+<li><a id="org43bee1c"></a><a href="https://pasaka.lt/kino-teatras/kinas-po-zvaigzdemis">Kino pasaka filmai - paspausk</a><br /></li>
+<li><a id="org6f00ad5"></a>Pakiesinom picos, pazaidem traukinukais, gerai praleidom laika<br /></li>
+<li><a id="orgf878d4b"></a>Slugs!!!<br /></li>
+</ul>
+</div>
+<div id="outline-container-org1087fb0" class="outline-3">
+<h3 id="org1087fb0"><span class="timestamp-wrapper"><span class="timestamp">&lt;2021-08-29 Sk&gt;</span></span></h3>
+<div class="outline-text-3" id="text-org1087fb0">
+</div>
+<ul class="org-ul">
+<li><a id="org594b229"></a>11:00 Sveteliai isvaro i Vilniu (1/2)<br /></li>
+<li><a id="org9524878"></a>Nemokami koncai Vilniuje snd<br /></li>
+<li><a id="org922fa2e"></a>Doviliukas susitinka drauges<br /></li>
+</ul>
+</div>
+<div id="outline-container-org67b4cc1" class="outline-3">
+<h3 id="org67b4cc1"><span class="timestamp-wrapper"><span class="timestamp">&lt;2021-08-28 Št&gt;</span></span></h3>
+<div class="outline-text-3" id="text-org67b4cc1">
+</div>
+<ul class="org-ul">
+<li><a id="org0d029c5"></a>Grybaujam is ryto<br /></li>
+<li><a id="org138016a"></a>18:00 Bistrampolio baras mama pasveikinti(kita karta limuzinas 70eur val)<br /></li>
+<li><a id="orgef16751"></a>Ale kolonele sugedus? Pasiimk, susirasti dainusku. Pakrovejas<br /></li>
+</ul>
+</div>
+<div id="outline-container-orgba71b12" class="outline-3">
+<h3 id="orgba71b12"><span class="timestamp-wrapper"><span class="timestamp">&lt;2021-08-27 Pn&gt;</span></span></h3>
+<div class="outline-text-3" id="text-orgba71b12">
+</div>
+<ul class="org-ul">
+<li><a id="orgdbb1e35"></a>Anyksciai medziai<br /></li>
+<li><a id="org0d950e6"></a>Anyksciai Wake board<br /></li>
+<li><a id="orgbf15de0"></a>Tulpese nera karsto iki 18:00<br /></li>
+<li><a id="org71a758e"></a>18:00 Instrumentinės, modernios ir roko klasikos grupė „Voiceless“<br /></li>
+</ul>
+</div>
+<div id="outline-container-orgfc8a1ac" class="outline-3">
+<h3 id="orgfc8a1ac"><span class="timestamp-wrapper"><span class="timestamp">&lt;2021-08-26 Kt&gt;</span></span></h3>
+<div class="outline-text-3" id="text-orgfc8a1ac">
+</div>
+<ul class="org-ul">
+<li><a id="org2e78547"></a>Tulpese nera karsto<br /></li>
+<li><a id="org3b4fd4b"></a>19:00 <a href="https://www.garsas.lt/renginys/rugpjucio-26-d-1900-val-filmas-frida-viva-la-vida/">Frida movie</a><br /></li>
+</ul>
+</div>
+<div id="outline-container-orgdfa1b69" class="outline-3">
+<h3 id="orgdfa1b69"><span class="timestamp-wrapper"><span class="timestamp">&lt;2021-08-25 Tr&gt;</span></span></h3>
+<div class="outline-text-3" id="text-orgdfa1b69">
+</div>
+<ul class="org-ul">
+<li><a id="org408b893"></a>Tulpese nera karsto<br /></li>
+<li><a id="org13954b2"></a>REST DAY!!!<br /></li>
+<li><a id="orgf8bbb55"></a>kasiukas, pica, kavinuke, shopinimasis, poilsis<br /></li>
+<li><a id="org0d35277"></a>16:30 Atomines ekskursija (nop)<br /></li>
+<li><a id="org910a475"></a>Visaginas - vaiduokliu miestas (nop)<br /></li>
+<li><a id="org73d40ca"></a>24-26 diena galima I ignalina ekskursija 90eur, savaitgali taip pat galima 28-29d (nop)<br /></li>
+<li><a id="org2c2514f"></a>Russian vibes (nop)<br /></li>
+<li><a id="org9ad4696"></a>Radijoaktyvumo skale!!! (nop)<br /></li>
+<li><a id="orgd97181c"></a>Apleisti namai (pasiimkit sportbacius) (nop)<br /></li>
+<li><a id="org1df0793"></a>Paruski rajonai (garsiakalbiai, kiemai, ir pan) (nop)<br /></li>
+<li><a id="org307c865"></a>Pakimarinti prie Elektrines is didziosios E. (nop)<br /></li>
+</ul>
+</div>
+<div id="outline-container-org8b47f5e" class="outline-3">
+<h3 id="org8b47f5e"><span class="timestamp-wrapper"><span class="timestamp">&lt;2021-08-24 An&gt;</span></span></h3>
+<div class="outline-text-3" id="text-org8b47f5e">
+</div>
+<ul class="org-ul">
+<li><a id="orgcd36e5c"></a>Mamos gimsiukas!!!<br /></li>
+<li><a id="org0df270d"></a>Tulpese nera karsto<br /></li>
+<li><a id="orgac792ae"></a>8:30 pas Dovil<br /></li>
+<li><a id="orgcae29c8"></a>Pas baba keksiukai<br /></li>
+<li><a id="org19d9aee"></a>Padevalkes (geltonas namelis)<br /></li>
+<li><a id="org6be2896"></a>Basu koju takas (sweaty activity)<br /></li>
+<li><a id="org33dfbe5"></a>Apzvalgos bokstas (beautiful tower)<br /></li>
+<li><a id="org340cf80"></a>Sodeliskio dvaras (farm vibes)<br /></li>
+<li><a id="org845978b"></a>Masinu muziejus (car museum) (nop)<br /></li>
+<li><a id="org3050d1f"></a>Birzu pilis (nop)<br /></li>
+<li><a id="orgb139fd1"></a>pakeliuj - Eco turgelis uz pasvalio<br /></li>
+<li><a id="org61050f5"></a>Birzu kebabine (meniu foto check, uzsisakom telefonu) (nop)<br /></li>
+<li><a id="orgcb6d085"></a>Kestucio g. firmine birzu duonos parde.<br /></li>
+<li><a id="orga838d89"></a>Pliekti Karka vakare visiem<br /></li>
+</ul>
+</div>
+<div id="outline-container-org7ea39cf" class="outline-3">
+<h3 id="org7ea39cf"><span class="timestamp-wrapper"><span class="timestamp">&lt;2021-08-23 Pr&gt;</span></span></h3>
+<div class="outline-text-3" id="text-org7ea39cf">
+</div>
+<ul class="org-ul">
+<li><a id="org13c295f"></a>Negyvosios kopos<br /></li>
+<li><a id="orgc3024e4"></a>Zuvyte/aitvaras/gintarai papludimyje<br /></li>
+<li><a id="org4a35f9b"></a>Klaipeda bubble tea<br /></li>
+<li><a id="org34a182d"></a>Audio knyga (ambersail, gyvuliu ukis)<br /></li>
+<li><a id="org5c3b8f8"></a>Kukuruzu laukai<br /></li>
+<li><a id="orgf4658b9"></a>Kryziu kalnas<br /></li>
+<li><a id="org87bd33d"></a>Karvytes<br /></li>
+<li><a id="org93a08a1"></a>Sushiai babes aikstelej<br /></li>
+<li><a id="org6a246c7"></a>Tulpese nera karsto vandens nuo 08:00 val - <a href="images/karstas.jpeg">Paspausk mane</a><br /></li>
+</ul>
+</div>
+<div id="outline-container-org7568d93" class="outline-3">
+<h3 id="org7568d93"><span class="timestamp-wrapper"><span class="timestamp">&lt;2021-08-22 Sk&gt;</span></span></h3>
+<div class="outline-text-3" id="text-org7568d93">
+</div>
+<ul class="org-ul">
+<li><a id="orgeb327b9"></a>Virve<br /></li>
+<li><a id="org110b26f"></a>Yoga<br /></li>
+<li><a id="orgf525e5b"></a>Stalo tenisas<br /></li>
+<li><a id="orga9e4560"></a>Prie juros dviraciais<br /></li>
+</ul>
+</div>
+<div id="outline-container-org8ba21f7" class="outline-3">
+<h3 id="org8ba21f7"><span class="timestamp-wrapper"><span class="timestamp">&lt;2021-08-21 Št&gt;</span></span></h3>
+<div class="outline-text-3" id="text-org8ba21f7">
+</div>
+<ul class="org-ul">
+<li><a id="org3af5e8c"></a>Aitvaras ;)<br /></li>
+<li><a id="orgd95d539"></a>Nida kopos<br /></li>
+<li><a id="orgfa36a12"></a>Svyturys<br /></li>
+<li><a id="org6c78874"></a>Kegliai<br /></li>
+<li><a id="org65aeb6f"></a>Doviles zaidimas<br /></li>
+<li><a id="org8bda03f"></a>Hamakeliai<br /></li>
+<li><a id="org24d6772"></a>Saslykiukai<br /></li>
+</ul>
+</div>
+<div id="outline-container-orgb7284e9" class="outline-3">
+<h3 id="orgb7284e9"><span class="timestamp-wrapper"><span class="timestamp">&lt;2021-08-20 Pn&gt;</span></span></h3>
+<div class="outline-text-3" id="text-orgb7284e9">
+</div>
+<ul class="org-ul">
+<li><a id="orge5382a6"></a>Ramze resrorane<br /></li>
+<li><a id="org9eefd34"></a>Raganu kalnas<br /></li>
+<li><a id="org39be931"></a>Paskanauti rukytu zuvyciu<br /></li>
+<li><a id="org3b92938"></a>Maudymasis juroje<br /></li>
+<li><a id="orge598830"></a>Dviraciai<br /></li>
+<li><a id="orgbcb357e"></a>Prie juros<br /></li>
+<li><a id="orgf258462"></a>Pasiimti:<br />
+<ul class="org-ul">
+<li><a id="org7f205c4"></a>Ragelis<br /></li>
+<li><a id="orgf172bcc"></a>Kosmetines<br /></li>
+<li><a id="org4a029c1"></a>Ragelis/pakrovejas<br /></li>
+<li><a id="org4384d7b"></a>Kompas/pakrovejas<br /></li>
+<li><a id="org0691e8b"></a>Foto/objektyvai/ratas/baterijos<br /></li>
+<li><a id="orgf645ddf"></a>Trikojis<br /></li>
+<li><a id="org724fe58"></a>Maudymkes/ranksluosciai<br /></li>
+<li><a id="orgf5b5893"></a>Carcassone<br /></li>
+<li><a id="orge7c549d"></a>Siltos kelnes/virsus/striukes/batu kelios poros<br /></li>
+<li><a id="orga84a805"></a>Basankes avdruk<br /></li>
+<li><a id="orgd346be3"></a>Purskalas nuo gyviu (Dovilei)<br /></li>
+<li><a id="org4e152be"></a>Hamakeliai/stogeliai<br /></li>
+</ul>
+</li>
+</ul>
+</div>
+<div id="outline-container-org333210f" class="outline-3">
+<h3 id="org333210f"><span class="timestamp-wrapper"><span class="timestamp">&lt;2021-08-19 Kt&gt;</span></span></h3>
+<div class="outline-text-3" id="text-org333210f">
+</div>
+<ul class="org-ul">
+<li><a id="orgea75e6b"></a>Grybaut nuo ryto? (Zalioji, Simonys, Subacius) (karsakiskietiski uzkandziai pakeliuj)<br />
+<div class="outline-text-5" id="text-orgea75e6b">
+</div>
+</li>
+<li><a id="org67449a1"></a>21:30 Kinas po atviru dangumi - <a href="https://renginiai.kasvyksta.lt/92396/atviras-kino-seansas-filmas-papisa">Prancuziskas filmas</a><br />
+<div class="outline-text-5" id="text-org67449a1">
+<ul class="org-ul">
+<li>Note taken on <span class="timestamp-wrapper"><span class="timestamp">[2021-08-18 Tr 09:21] </span></span> <br />
+Dalyvauja prekinio zenklo "MUR MUR" ikureja.</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+<div id="outline-container-orgaf04868" class="outline-3">
+<h3 id="orgaf04868"><span class="timestamp-wrapper"><span class="timestamp">&lt;2021-08-18 Tr&gt;</span></span></h3>
+<div class="outline-text-3" id="text-orgaf04868">
+</div>
+<ul class="org-ul">
+<li><a id="org0626ed3"></a>Armatura atveza sode - aplankom baba<br />
+<div class="outline-text-5" id="text-org0626ed3">
+</div>
+</li>
+<li><a id="orga84ce32"></a>Skaistuko sleptuve patikrinti<br />
+<div class="outline-text-5" id="text-orga84ce32">
+</div>
+</li>
+<li><a id="orgad01eb7"></a>Dovil/Clement Aukstaiciu g. 14:00 - iki vakaro. Siurprizas mamai<br />
+<div class="outline-text-5" id="text-orgad01eb7">
+</div>
+</li>
+</ul>
+</div>
+<div id="outline-container-orgfbd09e2" class="outline-3">
+<h3 id="orgfbd09e2"><span class="timestamp-wrapper"><span class="timestamp">&lt;2021-08-17 An&gt;</span></span></h3>
+<div class="outline-text-3" id="text-orgfbd09e2">
+</div>
+<ul class="org-ul">
+<li><a id="orgc030644"></a>Pakeisti elementus<br />
+<div class="outline-text-5" id="text-orgc030644">
+</div>
+</li>
+<li><a id="orgcc56836"></a>Ijungti sviesytes<br />
+<div class="outline-text-5" id="text-orgcc56836">
+</div>
+</li>
+<li><a id="orge44cccf"></a>Rakteliai namu tetei (pasilik pasto dezutes raktus)<br />
+<div class="outline-text-5" id="text-orge44cccf">
+</div>
+</li>
+<li><a id="org22fbfd7"></a>Decathalon atsiimti dalykus du (Vilnius)<br />
+<div class="outline-text-5" id="text-org22fbfd7">
+</div>
+</li>
+<li><a id="org1b645a5"></a>Mazvydo bible patikrinti del skaitykles (Vilnius)<br />
+<div class="outline-text-5" id="text-org1b645a5">
+</div>
+</li>
+<li><a id="org8b77af6"></a>Formosa gerimai sveteliam paruosti (Vilnius)<br />
+<div class="outline-text-5" id="text-org8b77af6">
+</div>
+</li>
+<li><a id="org56aa983"></a>21:20 Sveteliai leidziasi Vilniuje<br />
+<div class="outline-text-5" id="text-org56aa983">
+</div>
+</li>
+</ul>
+</div>
+<div id="outline-container-org4ded0fc" class="outline-3">
+<h3 id="org4ded0fc">Things learned</h3>
+<div class="outline-text-3" id="text-org4ded0fc">
+</div>
+<ul class="org-ul">
+<li><a id="org120f9de"></a>kiek dienu - tiek skirtinu zmoniu suorganizuotu valgyma<br /></li>
+<li><a id="org2bb8e7e"></a>rest day suplanuota<br /></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgd39b3cd" class="outline-2">
+<h2 id="orgd39b3cd">Galimos veiklos</h2>
+<div class="outline-text-2" id="text-orgd39b3cd">
+</div>
+<div id="outline-container-org870c632" class="outline-3">
+<h3 id="org870c632">Panevezys</h3>
+<div class="outline-text-3" id="text-org870c632">
+</div>
+<ul class="org-ul">
+<li><a id="orgfdbb908"></a>Senvage apeiti/apziureti progresa<br /></li>
+<li><a id="org1c2518f"></a>Plaut masina<br /></li>
+<li><a id="org3b8ac24"></a>12:00 kebabai su muzika<br /></li>
+<li><a id="org4471fa0"></a>Taboras<br /></li>
+<li><a id="org307f21c"></a>Linas<br /></li>
+<li><a id="org225f853"></a>Cido arena parkingas check<br /></li>
+<li><a id="org3f92660"></a>Misios su baba<br /></li>
+<li><a id="orga14f0f3"></a>Turgelis Klaipedos gatvej<br /></li>
+<li><a id="org91ada74"></a>Baze<br /></li>
+<li><a id="org46c923b"></a>Baidarem Panevezio rajone?<br /></li>
+<li><a id="orga1f9f7c"></a>Forumcinemas <a href="https://www.apollokinas.lt/home">Panevezyje</a> <a href="https://www.forumcinemas.lt/Movies/Siauliai/">(bet galim ziureti ir kokiuose Siauliuose</a> ;) )<br /></li>
+<li><a id="orgebcdbca"></a>Ant lentu!! <a href="https://vandenlentes.lt/panevezys/">Wake parkas</a><br /></li>
+<li><a id="orgb5d9734"></a>Patiem sukurti geocaching spota arba eiti ieskoti<br /></li>
+<li><a id="orge6b7162"></a>Aerodromo rajonai + aitvaras (lektuviukai ir pan, pestute)<br /></li>
+<li><a id="org8f956e1"></a>29d. 18:00 Jazz concert thingy <a href="https://renginiai.kasvyksta.lt/92415/jauno-dziazo-dienos-troskunai">link</a><br /></li>
+<li><a id="org6ad8353"></a>Dalykai - <a href="https://cutt.ly/pQB1QYv">https://cutt.ly/pQB1QYv</a><br /></li>
+</ul>
+</div>
+<div id="outline-container-orgc3baf95" class="outline-3">
+<h3 id="orgc3baf95">Siaip uz miesto (?)</h3>
+<div class="outline-text-3" id="text-orgc3baf95">
+</div>
+<ul class="org-ul">
+<li><a id="org80ef7ee"></a>Stumbrai<br /></li>
+<li><a id="orgfdf2a13"></a>Anyksciu labirintas<br /></li>
+<li><a id="orgea08c3b"></a>Nuomotis viecike Anyksciuose pernakvoti ir viska ten isnarsyti<br /></li>
+</ul>
+</div>
+<div id="outline-container-orgd78f434" class="outline-3">
+<h3 id="orgd78f434">Valgymas</h3>
+<div class="outline-text-3" id="text-orgd78f434">
+</div>
+<ul class="org-ul">
+<li><a id="org5136dc4"></a>suji gulab jamun | सूजी के गुलाब जामुन रेसिपी | <a href="https://www.youtube.com/watch?v=mQak2o8_OdA">saldu, Nepalietiska</a><br /></li>
+<li><a id="org1b3804b"></a>Pietus Zara restoranas<br /></li>
+<li><a id="org1702790"></a>Kimar ir kiesaras (kebabas/salotos) ant tinklu prie ekrano<br /></li>
+<li><a id="org8adf4f6"></a>Surio lazdeles su cheetos - thank you bye<br /></li>
+</ul>
+</div>
+<div id="outline-container-orgc50fb7e" class="outline-3">
+<h3 id="orgc50fb7e">Vilnius (South)</h3>
+<div class="outline-text-3" id="text-orgc50fb7e">
+</div>
+<ul class="org-ul">
+<li><a id="org186d98f"></a>Kino pasaka (filmas po atviru dangumi?)<br /></li>
+<li><a id="org486b629"></a>Panarsyti pozeminiuose tuneliuose<br /></li>
+<li><a id="org82c9b12"></a>Aprodyti jegainiu rajona (pafotkinti)<br /></li>
+<li><a id="org0826727"></a>Aprodyti kalniukus Vilniaus (prie gariunu taip pat) (netoli jegainiu)<br /></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgc937640" class="outline-2">
+<h2 id="orgc937640">Suplanuotos veiklos</h2>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Aze</p>
+<p class="date">Created: 2021-08-31 An 13:31</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
