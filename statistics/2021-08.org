@@ -6,6 +6,7 @@
 #+STARTUP: hidestars
 #+HTML_HEAD: <style> #content{max-width:1800px;}</style>
 #+TBLFM: @9$2=vsum(@2$2..@9$2)::@9$3=vsum(@2$3..@7$3)
+#+EXPORT_FILE_NAME: /home/azeubu/Dropbox/3.client_websites/obelsdumas/index.html
 
 ** Sales
 *** Categories
