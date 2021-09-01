@@ -2,7 +2,7 @@
 #+ARCHIVE: ~/Dropbox/org/backups/archive/%s_datetree::datetree/
 * Obelsdumas
   :CLOCK:
-  CLOCK: [2021-09-01 Tr 08:02]
+  CLOCK: [2021-09-01 Tr 08:02]--[2021-09-01 Tr 08:36] =>  0:34 - added revenue to the statistics page
   CLOCK: [2021-09-01 Tr 07:37]--[2021-09-01 Tr 07:55] =>  0:18 - Renata negali apsipirkti (email)
   :END:
   :PEOPLE:
