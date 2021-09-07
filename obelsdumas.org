@@ -1,67 +1,94 @@
 #+STARTUP: overview
-#+ARCHIVE: ~/Dropbox/org/backups/archive/%s_datetree::datetree/
-* Obelsdumas
-  :CLOCK:
-  CLOCK: [2021-09-01 Tr 08:02]--[2021-09-01 Tr 08:36] =>  0:34 - added revenue to the statistics page
-  CLOCK: [2021-09-01 Tr 07:37]--[2021-09-01 Tr 07:55] =>  0:18 - Renata negali apsipirkti (email)
-  :END:
-  :PEOPLE:
-    - Arune Svencione
-    - Tautvydas Svencionis
-  :END:
+#+ARCHIVE: ~/Dropbox/99.backups/archive/%s_archive::datetree/
+
+* Uzduoteles
+** Marketing
+*** write to some marketing agencies to market our site. maybe modestas?
+*** NEXT arune  gal noretu ismeginti coupons. padariau nice
 ** pridek i footer - paruošė arvydas.dev
-** Uzduoteles [0/9]
-*** TODO Make an explainer video
-    (tool LOOM on windows) - allows to record screen and audio at the same time.
+** Make an explainer video
+   (tool LOOM on windows) - allows to record screen and audio at the same time.
 
-    blogpost
-    products
-    uzsakymai
-    paysera uzsakymai
-    analytics
+   blogpost
+   products
+   uzsakymai
+   paysera uzsakymai
+   analytics
 
-    Separate short videos maybe
-    put to youtube and unlist the video
-*** Sukurk obels dumo video padedanti apsipirkti, go step by step?
-*** TODO Handing in the site
-**** Create a custom login experience
-**** IN-PROGRESS Install google analytics
-***** Invite Arune to google analytics page, add their gmail under "Account management"
-**** Add favicon/logo
-**** Create a user for a client
-     email has to be client's since he will get a mail with password there.
-     Editor role.
-**** Elementor user roles
-     elementor dont know we just created editor role. (only for elementor pro)
-     https://www.youtube.com/watch?v=YkdHRep3vr0
-     can only change icons and text
-**** wp-admin ui custmize plugin
-**** ManageWP
-**** backups?
-     Interneto vizija praso 9.99 + PVM uz duomenu atstatyma.
+   Separate short videos maybe
+   put to youtube and unlist the video
+** Sukurk obels dumo video padedanti apsipirkti, go step by step?
+** Handing in the site
+*** Create a custom login experience
+*** Install google analytics
+**** Invite Arune to google analytics page, add their gmail under "Account management"
+*** Add favicon/logo
+*** Create a user for a client
+    email has to be client's since he will get a mail with password there.
+    Editor role.
+*** Elementor user roles
+    elementor dont know we just created editor role. (only for elementor pro)
+    https://www.youtube.com/watch?v=YkdHRep3vr0
+    can only change icons and text
+*** wp-admin ui custmize plugin
+*** ManageWP
+*** backups?
+    Interneto vizija praso 9.99 + PVM uz duomenu atstatyma.
 
-     Labas rytas, bendro naudojimo serveriams yra generuojamos naktinės
-     (praeitos nakties) bei savaitgalio (praeito penktadienio)
-     kopijos. Kopijose talpinami visi plane esantys failai bei duomenų
-     bazė. Atsarginės kopijos talpinamos bei saugomos iš mūsų pusės, jų
-     pasiekti Jums galimybės nėra. Jei reikalinga atstatyti duomenų
-     atsarginę kopiją, tai galite atlikti klientų sistemoje, už
-     papildomą 9.99 € + PVM vienkartinį mokestį.  Daugiau informacijos
-     galite rasti šioje instrukcijoje:
-     ﻿https://www.iv.lt/pagalba/Duomen%C5%B3_atstatymas ﻿Jei kils
-     papildomų klausimų, nedvejodami kreipkitės.  Geros dienos!  ﻿
-*** TODO write to some marketing agencies to market our site. maybe modestas?
-*** TODO Monthly graph with stats
-*** TODO Optimize for the mobile use. check google search console
-*** TODO Paziurek rimtai kaip ten su tais lipdukais, ar apsimoka. ar tikrai tik 12ct
+    Labas rytas, bendro naudojimo serveriams yra generuojamos naktinės
+    (praeitos nakties) bei savaitgalio (praeito penktadienio)
+    kopijos. Kopijose talpinami visi plane esantys failai bei duomenų
+    bazė. Atsarginės kopijos talpinamos bei saugomos iš mūsų pusės, jų
+    pasiekti Jums galimybės nėra. Jei reikalinga atstatyti duomenų
+    atsarginę kopiją, tai galite atlikti klientų sistemoje, už
+    papildomą 9.99 € + PVM vienkartinį mokestį.  Daugiau informacijos
+    galite rasti šioje instrukcijoje:
+    ﻿https://www.iv.lt/pagalba/Duomen%C5%B3_atstatymas ﻿Jei kils
+    papildomų klausimų, nedvejodami kreipkitės.  Geros dienos!  ﻿
+** Optimize for the mobile use. check google search console
+** Paziurek rimtai kaip ten su tais lipdukais, ar apsimoka. ar tikrai tik 12ct
+** [[file:../obelsdumas/images/mokejimo_budai.png]]
+
+https://www.skaitmeninerinkodara.lt/
+* 2021_09 Rugsėjis
+#+BEGIN: clocktable :maxlevel 3 :scope file :compact nil :header "#+NAME: 2021_Rugsejis\n"
+#+NAME: 2021_Rugsejis
+| Headline                                 | Time   |      |      |
+|------------------------------------------+--------+------+------|
+| *Total time*                             | *1:04* |      |      |
+|------------------------------------------+--------+------+------|
+| 2021_09 Rugsėjis                         | 1:04   |      |      |
+| \_  [2021-09-04 Tr]                      |        | 0:12 |      |
+| \_    Puslapio atnaujinimai/profilaktika |        |      | 0:12 |
+| \_  [2021-09-01 Tr]                      |        | 0:52 |      |
+| \_    Padejau Renatai apsipirkti         |        |      | 0:18 |
+| \_    Statistics page (revenue)          |        |      | 0:34 |
+#+END:
+
+** [2021-09-04 Tr]
+*** Puslapio atnaujinimai/profilaktika
     :LOGBOOK:
-    CLOCK: [2021-07-31 Št 07:16]--[2021-07-31 Št 07:46] =>  0:30
+    - Note taken on [2021-09-04 Št 16:09] \\
+      Iskiepiu atnaujinimai
+      All-in-One WP Migration to Version 7.47
+      Elementor to Version 3.4.3
+      Really Simple SSL to Version 5.0.10
+      Site Kit by Google to Version 1.40.0
+      TranslatePress - Multilingual Version 2.1.0
+    - Note taken on [2021-09-04 Št 16:00] \\
+      Puslapis veikia greiai, kaip priklauso
+      iv.lt backup
     :END:
-*** TODO [[file:../obelsdumas/images/mokejimo_budai.png]]
-*** TODO Marketing
-**** facebook posts
-     :LOGBOOK:
-     - Note taken on [2021-07-30 Pn 11:06] \\
-       facebook posts can be with coupon codes, raginimai pirkti
-     :END:
-**** arune  gal noretu ismeginti coupons. padariau nice.
+    :CLOCK:
+    CLOCK: [2021-09-04 Št 15:59]--[2021-09-04 Št 16:11] =>  0:12
+    - done
+    :END:
+** [2021-09-01 Tr]
+*** Padejau Renatai apsipirkti
+   :CLOCK:
+   CLOCK: [2021-09-01 Tr 07:37]--[2021-09-01 Tr 07:55] =>  0:18 - Renata negali apsipirkti (email)
+   :END:
+*** Statistics page (revenue)
+   :CLOCK:
+   CLOCK: [2021-09-01 Tr 08:02]--[2021-09-01 Tr 08:36] =>  0:34 - added revenue to the statistics page
+   :END:
